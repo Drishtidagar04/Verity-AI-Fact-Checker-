@@ -129,5 +129,60 @@ a {{ color:var(--cyan); }} a:hover {{ color:#67E8F9; }}
 .stTabs [data-baseweb="tab"] {{ font-weight:600; }}
 @media (max-width:720px) {{ .hero {{ padding:1.8rem 1.2rem; border-radius:18px; }} .block-container {{ padding-left:1rem; padding-right:1rem; }} .vc {{ padding:.95rem; }} }}
 @media (prefers-reduced-motion: reduce) {{ *, *::before, *::after {{ animation:none !important; transition:none !important; }} }}
+/* ===== Readability fixes: grey -> white, new upload button, white header icons ===== */
+
+/* 1. All grey / muted text -> white */
+[data-testid="stSidebar"] label,
+[data-testid="stSidebar"] p,
+[data-testid="stSidebar"] span,
+[data-testid="stSidebar"] small,
+[data-testid="stSidebar"] [data-testid="stCaptionContainer"],
+[data-testid="stSidebar"] [data-testid="stWidgetLabel"] p,
+[data-testid="stSidebar"] [role="radiogroup"] label p,
+[data-testid="stWidgetLabel"] p,
+[data-testid="stWidgetLabel"] label,
+[data-testid="stFileUploader"] label,
+[data-testid="stFileUploader"] small,
+[data-testid="stFileUploaderDropzoneInstructions"] span,
+[data-testid="stFileUploaderDropzoneInstructions"] small,
+[data-testid="stCaptionContainer"],
+[data-testid="stCaptionContainer"] p,
+.stCaption, small {{ color:#FFFFFF !important; opacity:1 !important; }}
+
+/* sidebar title, tagline and version text */
+[data-testid="stSidebar"] .brand-name,
+[data-testid="stSidebar"] .brand-sub,
+[data-testid="stSidebar"] div {{ color:#FFFFFF; }}
+
+/* help (?) icons next to widget labels */
+[data-testid="stTooltipIcon"] svg,
+[data-testid="stSidebar"] svg {{ color:#FFFFFF !important; fill:#FFFFFF !important; opacity:1 !important; }}
+
+/* 2. Upload button: violet -> cyan gradient with dark text (was white-on-white) */
+[data-testid="stFileUploaderDropzone"] button,
+[data-testid="stFileUploader"] button {{
+  background:linear-gradient(135deg,#8B5CF6,#22D3EE) !important;
+  color:#FFFFFF !important; border:0 !important; font-weight:700 !important;
+  box-shadow:0 6px 18px rgba(34,211,238,.35) !important;
+}}
+[data-testid="stFileUploaderDropzone"] button *,
+[data-testid="stFileUploader"] button * {{ color:#FFFFFF !important; fill:#FFFFFF !important; }}
+[data-testid="stFileUploaderDropzone"] button:hover {{ filter:brightness(1.12); transform:translateY(-1px); }}
+[data-testid="stFileUploaderDropzone"] svg {{ color:#22D3EE !important; fill:#22D3EE !important; }}
+
+/* 3. Top header icons (Share, star, edit, GitHub, menu) -> white */
+[data-testid="stHeader"] button,
+[data-testid="stHeader"] a,
+[data-testid="stToolbar"] button,
+[data-testid="stToolbar"] a,
+[data-testid="stToolbar"] span,
+[data-testid="stHeader"] svg,
+[data-testid="stToolbar"] svg,
+[data-testid="stExpandSidebarButton"] svg,
+[data-testid="stSidebarCollapseButton"] svg {{ color:#FFFFFF !important; fill:#FFFFFF !important; opacity:1 !important; }}
+
+/* 4. Model dropdown: dark box with white text instead of white box */
+[data-baseweb="select"] > div {{ background:#141C3D !important; border:1px solid rgba(255,255,255,.25) !important; }}
+[data-baseweb="select"] * {{ color:#FFFFFF !important; fill:#FFFFFF !important; }}
 </style>
 """
