@@ -184,5 +184,12 @@ a {{ color:var(--cyan); }} a:hover {{ color:#67E8F9; }}
 /* 4. Model dropdown: dark box with white text instead of white box */
 [data-baseweb="select"] > div {{ background:#141C3D !important; border:1px solid rgba(255,255,255,.25) !important; }}
 [data-baseweb="select"] * {{ color:#FFFFFF !important; fill:#FFFFFF !important; }}
+/* top-right toolbar icons (Share, star, edit pencil, GitHub, menu) */
+header, header *, [data-testid="stHeader"], [data-testid="stHeader"] *, [data-testid="stToolbar"], [data-testid="stToolbar"] *,
+[data-testid="stAppDeployButton"] *, [data-testid="stMainMenu"] *, .stAppToolbar, .stAppToolbar *, .viewerBadge_link__qRIco {{
+  color:#FFFFFF !important; opacity:1 !important; }}
+header svg, header svg *, [data-testid="stToolbar"] svg, [data-testid="stToolbar"] svg *, .stAppToolbar svg, .stAppToolbar svg * {{
+  fill:#FFFFFF !important; stroke:#FFFFFF !important; color:#FFFFFF !important; opacity:1 !important; }}
+header button:hover svg, header a:hover svg {{ filter:drop-shadow(0 0 6px rgba(34,211,238,.9)); }}
 </style>
 """
