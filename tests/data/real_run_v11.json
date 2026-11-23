@@ -1,0 +1,1652 @@
+{
+  "schema_version": "1.0",
+  "generator": "Verity AI",
+  "summary": {
+    "claims": 13,
+    "counts": {
+      "VERIFIED": 4,
+      "INACCURATE": 3,
+      "FALSE": 5,
+      "INSUFFICIENT EVIDENCE": 1
+    },
+    "not_checked": 0,
+    "verified_rate": 0.3076923076923077
+  },
+  "audit": {
+    "id": "38a365d84d5e",
+    "filename": "Verity_Evaluation_Trap_Sample_v2.pdf",
+    "created_at": "2026-11-23T14:42:19+00:00",
+    "model": "openai/gpt-oss-120b",
+    "pages": 1,
+    "chars": 992,
+    "sha256": "8a06314d03127a666785daf651c40c7574f9bd04447651cc0a997581bfa166ed",
+    "results": [
+      {
+        "claim": {
+          "id": "C01",
+          "text": "The chemical formula of water is H2O.",
+          "quote": "The chemical formula of water is H2O.",
+          "page": 1,
+          "category": "technical",
+          "search_query": "water chemical formula H2O"
+        },
+        "verdict": "VERIFIED",
+        "corrected_fact": null,
+        "explanation": "All provided sources state that water's chemical formula is H₂O, confirming the claim.",
+        "citations": [
+          {
+            "source_idx": 1,
+            "stance": "supports",
+            "quote": "The chemical formula of water is H₂O, meaning each water molecule consists of two hydrogen atoms bonded to one oxygen atom.",
+            "quote_matched": true
+          },
+          {
+            "source_idx": 2,
+            "stance": "supports",
+            "quote": "Chemical formula | H2O",
+            "quote_matched": true
+          }
+        ],
+        "sources": [
+          {
+            "idx": 1,
+            "title": "What is the formula of water? – Smart Water Magazine",
+            "url": "https://smartwatermagazine.com/q-a/what-formula-water",
+            "domain": "smartwatermagazine.com",
+            "snippet": "Smart Water Magazine What is the formula of water? # What is the formula of water? Description and characteristics of the water molecule. ### Contents The chemical formula of water is H₂O, meaning each water molecule consists of two hydrogen atoms bonded to one oxygen atom. This simple formula represents one of the most essential substances on Earth, making up about 60-70% of the human body and covering 71% of our planet's surface. ## What does H₂O mean? The formula H₂O tells us exactly what a water molecule contains: The subscript \"2\" indicates there are two hydrogen atoms for every one oxygen atom. This ratio is fixed – if the ratio changes, it's no longer water. [...] | Component | Symbol | Number of atoms | Atomic weight | --- --- | | Hydrogen | H | 2 | 1.008 × 2 = 2.016 | | Oxygen | O | 1 | 15.999 | | Water | H₂O | 3 total | 18.015 g/mol | ## Structure of the water molecule The wate",
+            "score": 0.83237296,
+            "published": null
+          },
+          {
+            "idx": 2,
+            "title": "Water - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Water",
+            "domain": "en.wikipedia.org",
+            "snippet": "| KEGG | C00001 | | PubChem CID | 962 | | RTECS number | ZC0110000 | | UNII | 059QF0KO0RcheckY | | CompTox Dashboard (EPA) | DTXSID6026296 Edit this at Wikidata | | InChI InChI=1S/H2O/h1H2checkY Key: XLYOFNOQVPJJNP-UHFFFAOYSA-NcheckY | | SMILES O | | Properties | | Chemical formula | H2O | | Molar mass | 18.015 g·mol−1 | | Appearance | Almost colorless or white crystalline solid, almost colorless liquid, with a hint of blue, colorless gas | | Odor | Odorless | | Density | Liquid (1 atm, VSMOW): 0.99984283(84) g/mL at 0 °C 0.99997495(84) g/mL at 3.983035(670) °C (temperature of maximum density, often 4 °C) 0.99704702(83) g/mL at 25 °C 0.96188791(96) g/mL at 95 °C Solid: 0.9167 g/mL at 0 °C | | Melting point | 0.00 °C (32.00 °F; 273.15 K) | [...] Chemical compound Water is an inorganic compound with the chemical formula H2O. It is a transparent, tasteless, odorless, and nearly colorless ch",
+            "score": 0.8174288,
+            "published": null
+          },
+          {
+            "idx": 3,
+            "title": "Water Molecule : Chemical and Physical Properties | IJSRST",
+            "url": "https://ijsrst.com/IJSRST2074161",
+            "domain": "ijsrst.com",
+            "snippet": "## Abstract Water is a chemical compound and polar molecule, which is liquid at standard temperature and pressure. It has the chemical formula H2O, meaning that one molecule of water is composed of two hydrogen atoms and one oxygen atom. Water is found almost everywhere on earth and is required by all known life. About 70% of the Earth's surface is covered by water. Water is known to exist, in ice form, on several other bodies in the solar system and beyond, and proof that it exists (or did exist) in liquid form anywhere besides Earth would be strong evidence of extraterrestrial life. ## Keywords: H2O, Chemical Compound, Polar Molecule, Extra-Terrestrial Life ## References",
+            "score": 0.7893961,
+            "published": null
+          },
+          {
+            "idx": 4,
+            "title": "How to Write the Chemical Formula for Water",
+            "url": "https://www.youtube.com/watch?v=IWjHS5_LJcA",
+            "domain": "youtube.com",
+            "snippet": "let's write the chemical formula for water so water is a common name it's not a systematic name so when you look at the name water it's really hard to write the chemical formula you need more information so this is a molecular model of a water molecule we notice that we have oxygen that's the red one oxygen and then hydrogen that's the white we have two hydrogen atoms so based on that we can write the chemical formula for water we have h12 so h and then the oxygen that's the o so the chemical formula for water that's h2o let's take a look at the structural formula for water too that'll help us understand even better so this is the structural formula for water we have our one two hydrogens and then the one oxygen right here h2o and we don't have it drawn here but there are two lone pairs [...] # How to Write the Chemical Formula for Water To write the formula for water we need we'll need ",
+            "score": 0.72700745,
+            "published": null
+          },
+          {
+            "idx": 5,
+            "title": "9.1: H₂O - Simple Formula, Remarkable Molecule - Chemistry LibreTexts",
+            "url": "https://chem.libretexts.org/Bookshelves/Environmental_Chemistry/Green_Chemistry_and_the_Ten_Commandments_of_Sustainability_(Manahan)/09%3A_Water_the_Ultimate_Green_Substance/9.01%3A_New_Page",
+            "domain": "chem.libretexts.org",
+            "snippet": "The chemical formula of water, H2O, is probably the best known of all compounds. This simple formula represents a substance that is unique and complex in its behavior. These special properties are due to the molecular structure of the H2O molecule represented in Figure 9.1. There are four pairs of electrons in the outer electron shell of the O atom in the H2O molecule, two of which compose the bonds between the H and O atoms and two of which are lone pairs. The distribution of these pairs as far apart as possible around an imaginary sphere representing the outer electron shell of the O atoms results in the two H-O bonds being located at an angle rather than a straight line. The side of the molecule with the two H atoms has a partial positive charge and the side with the two non-bonding [...] positive charge and the side with the two non-bonding pairs has a partial negative charge, so the",
+            "score": 0.6398486,
+            "published": null
+          },
+          {
+            "idx": 6,
+            "title": "What's the chemical formula for water? : r/NoStupidQuestions",
+            "url": "https://www.reddit.com/r/NoStupidQuestions/comments/1b55dre/whats_the_chemical_formula_for_water",
+            "domain": "reddit.com",
+            "snippet": "Water is made of two hydrogen atoms and one oxygen atom. H is the chemical symbol for hydrogen, O is for Oxygen. That's where we get H20 from.",
+            "score": 0.57684,
+            "published": null
+          },
+          {
+            "idx": 7,
+            "title": "Water | H2O",
+            "url": "https://www.chemspider.com/Chemical-Structure.937.html",
+            "domain": "chemspider.com",
+            "snippet": "Accessed: Royal Society of Chemistry | | | --- | | Molecular formula: | H2O | | Average mass: | 18.015 | | Monoisotopic mass: | 18.010565 | | ChemSpider ID: | 937 | Structural identifiers Names and synonyms [RN] 146915-50-6 [RN] 158061-35-9 [RN] 191612-61-0 [RN] 191612-63-2 [RN] 231-791-2 [EINECS] 3352-57-6 [RN] 7732-18-5 [RN] agua [Spanish] aqua [Latin] DHMO Dihydrogen Monoxide eau [French] vatten [Danish] vesi [Finnish] Wasser [German] ( Water",
+            "score": 0.46538752,
+            "published": null
+          },
+          {
+            "idx": 8,
+            "title": "Water | SSHADE",
+            "url": "https://www.sshade.eu/data/specie/MOLEC_H2O",
+            "domain": "sshade.eu",
+            "snippet": ". Comparator Comparator Molecule Name : Water Name and identifiers IUPAC name : Water, Oxidane Secondary names : Hydrogen oxide, Dihydrogen oxide, H2O InChI : InChI=1S/H2O/h1H2 InChI key : XLYOFNOQVPJJNP-UHFFFAOYSA-N CAS number : 7732-18-5 Comments : natural $H\\_2O$ Structure and atomic composition Formula : $H\\_2O$ Chemical formula : H2O Structural formula : [OH2] Charge : 0 Unpaired electrons : 0 Atoms",
+            "score": 0.41424707,
+            "published": null
+          }
+        ],
+        "strength": {
+          "score": 74,
+          "label": "Strong",
+          "factors": {
+            "source_count": 23.3,
+            "source_quality": 14.4,
+            "relevance": 16.5,
+            "grounding": 10.0,
+            "consistency": 10.0
+          },
+          "maximums": {
+            "source_count": 35.0,
+            "source_quality": 25.0,
+            "relevance": 20.0,
+            "grounding": 10.0,
+            "consistency": 10.0
+          }
+        },
+        "model_confidence": "high",
+        "contradictory": false,
+        "outdated": false,
+        "error": null,
+        "error_kind": null
+      },
+      {
+        "claim": {
+          "id": "C02",
+          "text": "The United Nations officially came into existence on 24 October 1945.",
+          "quote": "The United Nations officially came into existence on 24 October 1945.",
+          "page": 1,
+          "category": "date",
+          "search_query": "United Nations founding date October 1945"
+        },
+        "verdict": "VERIFIED",
+        "corrected_fact": null,
+        "explanation": "All cited sources state that the United Nations officially came into existence on 24 October 1945 after the Charter was ratified.",
+        "citations": [
+          {
+            "source_idx": 2,
+            "stance": "supports",
+            "quote": "the United Nations officially began, on 24 October 1945, when it came into existence after its Charter had been ratified",
+            "quote_matched": true
+          },
+          {
+            "source_idx": 5,
+            "stance": "supports",
+            "quote": "The United Nations came into existence on October 24, 1945, after 29 nations had ratified the Charter",
+            "quote_matched": true
+          }
+        ],
+        "sources": [
+          {
+            "idx": 1,
+            "title": "UN Founding Members - UN Membership - Research Guides at United Nations Dag Hammarskjöld Library",
+            "url": "https://research.un.org/en/unmembers/founders",
+            "domain": "research.un.org",
+            "snippet": "Since 1945, some of the Founding Members have changed their names, others have been dissolved and new states have succeeded them. | Original Member State | Date of Signing | Deposit of Ratification | Current Name/Successor States | |---|---|---|---| | Republic of China | 26 June 1945 | 28 Sept. 1945 | People's Republic of China | | France | 26 June 1945 | 31 Aug. 1945 | | | Union of Soviet Socialist Republics | 26 June 1945 | 24 Oct. 1945 | Russian Federation | | United Kingdom of Great Britain and Northern Ireland | 26 June 1945 | 20 Oct. 1945 | | | United States of America | 26 June 1945 | 8 Aug. 1945 | | | Argentina | 26 June 1945 | 24 Sept. 1945 | | | Brazil | 26 June 1945 | 21 Sept. 1945 | | | Byelorussian Soviet Socialist Republic | 26 June 1945 | 24 Oct. 1945 | Belarus | | Chile | 26 June 1945 | 11 Oct. 1945 | | | Cuba | 26 June 1945 | 15 Oct. 1945 | | | Czechoslovakia | 26 June 1",
+            "score": 0.91380292,
+            "published": null
+          },
+          {
+            "idx": 2,
+            "title": "History of the United Nations | United Nations",
+            "url": "https://www.un.org/en/about-us/history-of-the-un",
+            "domain": "un.org",
+            "snippet": "Four months after the San Francisco Conference ended, the United Nations officially began, on 24 October 1945, when it came into existence after its Charter had been ratified by China, France, the Soviet Union, the United Kingdom, the United States and by a majority of other signatories. Now, more than 75 years later, the United Nations is still working to maintain international peace and security, give humanitarian assistance to those in need, protect human rights, and uphold international law. [...] UN logo ## Search the United Nations # History of the United Nations Two images side by side of the UN Secretariat building. At left under construction in 1949. At right, in 1990 with the General Assembly building. As World War II was about to end in 1945, nations were in ruins, and the world wanted peace. Representatives of 50 countries gathered at the United Nations Conference on Internat",
+            "score": 0.8502201,
+            "published": null
+          },
+          {
+            "idx": 3,
+            "title": "History of the United Nations - United Nations - LibGuides at University of North Carolina Wilmington",
+            "url": "https://libguides.uncw.edu/c.php?g=1470934&p=10948164",
+            "domain": "libguides.uncw.edu",
+            "snippet": "Four months after the San Francisco Conference ended, the United Nations officially began, on 24 October 1945, when it came into existence after its Charter had been ratified by China, France, the Soviet Union, the United Kingdom, the United States and by a majority of other signatories.\" [...] ## Milestones in UN History MIlestones in UN History by Decade ## UN Charter UN Charter \"The Charter of the United Nations is the founding document of the United Nations. It was signed on 26 June 1945, in San Francisco, at the conclusion of the United Nations Conference on International Organization, and came into force on 24 October 1945.\" ## Nobel Peace Prize Nobel Peace Prize \"The will Alfred Nobel made in 1895 was inspired by belief in the community of man. The Peace Prize was to be awarded to the person who had done most for 'fraternity between nations, for the abolition or reduction of stand",
+            "score": 0.84273374,
+            "published": null
+          },
+          {
+            "idx": 4,
+            "title": "Creation of the United Nations - The 10 Best and 10 Worst U.S. Foreign Policy Decisions - The 10 Best and 10 Worst U.S. Foreign Policy Decisions",
+            "url": "https://www.cfr.org/ten-best-ten-worst-us-foreign-policy-decisions/creation-of-the-united-nations",
+            "domain": "cfr.org",
+            "snippet": "Truman avoided Wilson’s fate with the Treaty of Versailles, in good part because Roosevelt’s concerted effort to involve Congress in charter negotiations had paid off. Enthusiasm for creating the United Nations was widespread both in the Senate and among the American public. On July 28, 1945, the Senate voted 89 to 2 to approve the Charter. Ratification of the UN Charter was equally speedy in other capitals. The United Nations was officially established on October 24, 1945, after twenty-nine nations ratified the Charter. A map showing the founding members of the United Nations along with their colonies and trust territories. February 1949. United Nations Presentation. ## The Legacy of the Creation of the United Nations [...] On October 24, 1945, the Charter of the United Nations came into force, establishing the United Nation’s structure, principles, and purpose. The new organization was",
+            "score": 0.83642095,
+            "published": null
+          },
+          {
+            "idx": 5,
+            "title": "Milestones in the History of U.S. Foreign Relations - Office of the Historian",
+            "url": "https://history.state.gov/milestones/1937-1945/un",
+            "domain": "history.state.gov",
+            "snippet": "overwhelmingly endorsed participation. Roosevelt also sought to convince the public that an international organization was the best means to prevent future wars. The Senate approved the UN Charter on July 28, 1945, by a vote of 89 to 2. The United Nations came into existence on October 24, 1945, after 29 nations had ratified the Charter. [...] Office of the Historian ## Milestones: 1937–1945 NOTE TO READERS “Milestones in the History of U.S. Foreign Relations” has been retired and is no longer maintained. For more information, please see the full notice. # The Formation of the United Nations, 1945 On January 1, 1942, representatives of 26 nations at war with the Axis powers met in Washington to sign the Declaration of the United Nations endorsing the Atlantic Charter, pledging to use their full resources against the Axis and agreeing not to make a separate peace. The Founding of the UN i",
+            "score": 0.82782817,
+            "published": null
+          },
+          {
+            "idx": 6,
+            "title": "What is the United Nations (UN)? 🌍 | History, Purpose & 193 Member Countries Explained!",
+            "url": "https://www.youtube.com/watch?v=9ugxeToNT5c",
+            "domain": "youtube.com",
+            "snippet": "### Transcript [0:06] Hello curious kids. Welcome back to a curious minds where we learning something new every day. Have you ever [0:14] wondered how country and the world work together to make our planet a better [0:22] place? Today, let's discover the UN, also called the United Nations. [0:31] Are you ready? Let's go. What is the UN? [0:36] The UN is an international organization where countries come together to discuss problems and find peacefully solution. [0:48] It was officially established on October 24, 1945 [0:56] after World War II. Its main goals are to maintain peace, protect human rights, [1:03] provide humanitarian help and encourage country to work together. [1:10] Here is an amazing fact. The UN has 193 member states from around the world.",
+            "score": 0.82544905,
+            "published": null
+          },
+          {
+            "idx": 7,
+            "title": "Enlargement of the United Nations - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Enlargement_of_the_United_Nations",
+            "domain": "en.wikipedia.org",
+            "snippet": "The UN officially came into existence on 24 October 1945, after ratification of the United Nations Charter by the five permanent members of the United Nations Security Council (China, France, the Soviet Union, the United Kingdom, and the United States) and a majority of the other signatories.\\ A total of 51 original members (or founding members) joined that year; 50 of them signed the Charter at the United Nations Conference on International Organization in San Francisco on 26 June 1945, while [...] # Enlargement of the United Nations | United Nations | | Part of a series on the | | Charter | | UN System | | Funds, programmes, and other bodies | | Specialized agencies | | Membership | | History | | Resolutions | As of 22 November 2026, there are 193 member states in the United Nations (UN), each of which is a member of the United Nations General Assembly.\\ [...] | Year | \\# of admissions",
+            "score": 0.63624007,
+            "published": null
+          },
+          {
+            "idx": 8,
+            "title": "United Nations - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/United_Nations",
+            "domain": "en.wikipedia.org",
+            "snippet": "in August 1944. The drafting of the Charter of the United Nations was completed over the following two months, and it was signed on 26 June 1945 by the representatives of the 50 countries. The UN officially came into existence at 20:07 (UTC) on 24 October 1945, upon ratification of the Charter by the five permanent members of the Security Council: the United States, the United Kingdom, France, the Soviet Union and China \"Republic of China (1912–1949)\") — and by a majority of the other 46 [...] | • Deputy Secretary-General | Amina J. Mohammed | | • General Assembly President | Khalilur Rahman | | • Economic and Social Council President | Amar Bendjama | | | | Establishment | | • UN Charter signed | 26 June 1945 (81 years ago) (1945-06-26) | | • Charter entered into force | 24 October 1945 (81 years ago) (1945-10-24) | | | | Website un.org | | | | | Preceded by | | | | | League of Nations ",
+            "score": 0.61508787,
+            "published": null
+          }
+        ],
+        "strength": {
+          "score": 85,
+          "label": "Strong",
+          "factors": {
+            "source_count": 23.3,
+            "source_quality": 25.0,
+            "relevance": 16.8,
+            "grounding": 10.0,
+            "consistency": 10.0
+          },
+          "maximums": {
+            "source_count": 35.0,
+            "source_quality": 25.0,
+            "relevance": 20.0,
+            "grounding": 10.0,
+            "consistency": 10.0
+          }
+        },
+        "model_confidence": "high",
+        "contradictory": false,
+        "outdated": false,
+        "error": null,
+        "error_kind": null
+      },
+      {
+        "claim": {
+          "id": "C03",
+          "text": "The Eiffel Tower is located in Berlin, Germany.",
+          "quote": "The Eiffel Tower is located in Berlin, Germany.",
+          "page": 1,
+          "category": "other_fact",
+          "search_query": "Eiffel Tower location"
+        },
+        "verdict": "FALSE",
+        "corrected_fact": "The Eiffel Tower is located on the Champ de Mars at 5 Avenue Anatole France in the 7th arrondissement of Paris, France.",
+        "explanation": "All provided sources state the Eiffel Tower is in Paris, France, not Berlin, Germany.",
+        "citations": [
+          {
+            "source_idx": 2,
+            "stance": "contradicts",
+            "quote": "Location7th arrondissement of Paris, France",
+            "quote_matched": true
+          },
+          {
+            "source_idx": 3,
+            "stance": "contradicts",
+            "quote": "The Eiffel Tower can be found on the Champs de Mars at 5 Avenue Anatole France within the 7th arrondissement of Paris.",
+            "quote_matched": true
+          }
+        ],
+        "sources": [
+          {
+            "idx": 1,
+            "title": "Eiffel Tower Information, Tips and History - Paris Perfect",
+            "url": "https://www.parisperfect.com/plan-your-trip/things-to-see/monuments-landmarks/eiffel-tower.php",
+            "domain": "parisperfect.com",
+            "snippet": "What symbolizes Paris better than the Eiffel Tower? Soaring 324 meters (1,063 feet) into the air, La Grande Dame en Fer - or Grand Iron Lady - defines the city’s skyline. The tower is situated in 7th arrondissement, one of the French capital’s chicest districts, and was originally built for the 1889 World’s Fair in Paris. Over 120 years later, the Eiffel Tower remains the tallest structure in Paris and stands as one of the City of Light’s most popular tourist attractions. In fact, it welcomed its 250 millionth visitor in 2010! The figures behind the iconic tower are staggering: There are 1,665 steps from the East pillar to the top. Over 500 people work on the Tower every day. 2,500,000 rivets hold it together. Every few years, 60 tons of paint are used to repaint it…and being French, in 3 [...] Essential Information ## Essential Information Address: Champ de Mars, 5 Avenue Anatole France",
+            "score": 0.86545163,
+            "published": null
+          },
+          {
+            "idx": 2,
+            "title": "Eiffel Tower - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+            "domain": "en.wikipedia.org",
+            "snippet": "# Eiffel Tower Eiffel Tower Tour Eiffel (French) Record height Tallest in the world from 1889 to 1930\\[I] Preceded byWashington Monument Surpassed byChrysler Building General information TypeObservation tower Broadcasting tower Location7th arrondissement of Paris, France Coordinates48°51′29.6″N 2°17′40.2″E﻿ / ﻿48.858222°N 2.294500°E Construction started 28 January 1887 Completed 31 March 1889\\ Opening15 May 1889\\ OwnerCity of Paris, France OperatorSociété d'Exploitation de la Tour Eiffel (SETE) Height Architectural300 m (984 ft)\\ Tip330 m (1,083 ft) Top floor276 m (906 ft)\\ Technical details Floor count4 (3 accessible, 1 residual)\\ Lifts/elevators8\\ Design and construction ArchitectStephen Sauvestre Structural engineer Maurice Koechlin Émile Nouguier [...] Structural engineer Maurice Koechlin Émile Nouguier Main contractorCompagnie des Etablissements Eiffel Website toureiffel.paris Offic",
+            "score": 0.86408126,
+            "published": null
+          },
+          {
+            "idx": 3,
+            "title": "What does the Eiffel Tower represent? | Britannica",
+            "url": "https://www.britannica.com/question/Where-is-the-Eiffel-Tower-located-in-Paris",
+            "domain": "britannica.com",
+            "snippet": "The Editors of Encyclopaedia Britannica The Eiffel Tower can be found on the Champs de Mars at 5 Avenue Anatole France within the 7th arrondissement of Paris. Situated on the “Left Bank,” meaning it is to the south of the Seine River, the storied 7th arrondissement neighbourhood in Paris is home to many other famous tourist attractions, such as the Musée d’Orsay and the Rodin Museum. verifiedCite While every effort has been made to follow citation style rules, there may be some discrepancies. Please refer to the appropriate style manual or other sources if you have any questions. Select Citation Style The Editors of Encyclopaedia Britannica. \"Where is the Eiffel Tower located in Paris?\". Encyclopedia Britannica, 13 Feb. 2025, Accessed 5 November 2026. [...] SUBSCRIBE TO PREMIUM Ask the Chatbot Games & Quizzes History & Society Science & Tech Biographies Animals & Nature Geography & Trave",
+            "score": 0.8548847,
+            "published": null
+          },
+          {
+            "idx": 4,
+            "title": "Eiffel Tower address: quick access from Paris or France - PARISCityVISION",
+            "url": "https://www.pariscityvision.com/en/paris/landmarks/eiffel-tower/address",
+            "domain": "pariscityvision.com",
+            "snippet": "# Address of the Tour Eiffel for simple access Eiffel Tower Tours Starting from 39,00 € Find out more ## Eiffel Tower address: directions and practical information The Eiffel Tower is located on the Champs de Mars at 5 Avenue Anatole France in the 7th arrondissement of Paris. The symbolic monument in the heart of Paris can be spotted from a distance and is easily identifiable. Are you looking for the easiest way to get to the Eiffel Tower or the fastest route? There are many ways to get there by public transit or on foot. ### Public transportation to the Eiffel Tower METRO/RER [...] From Les Invalides: You are only 1.25 miles from the Eiffel Tower, or about 25 minutes of walking. If you are short on time, the shortest path is to turn left on Rue de l’Université and continue walking straight to the Eiffel Tower. If you want to a leisurely stroll, you can walk along the Quai d'Orsay, then ",
+            "score": 0.84695786,
+            "published": null
+          },
+          {
+            "idx": 5,
+            "title": "Eiffel Tower | History, Height, & Facts | Britannica",
+            "url": "https://www.britannica.com/topic/Eiffel-Tower-Paris-France",
+            "domain": "britannica.com",
+            "snippet": "Preferred Sourcetells Google you trust our content, so our articles show up more often in your Google Search, Discover feed, and AI Overviews. # Eiffel Tower ### What was the Eiffel Tower built for? ### What does the Eiffel Tower represent? ### What is the Eiffel Tower made of? ### Where is the Eiffel Tower located in Paris? ### When does the Eiffel Tower sparkle? Eiffel Tower, wrought-iron structure in Paris that is among the most famous landmarks in the world. It is also a technological masterpiece in building-construction history. It was designed and built (1887–89) by Gustave Eiffel and named in his honor. - Designer: Gustave Eiffel - Built: 1887–89 - Height: 330 meters (1,083 feet) - Weight: 10,100 tons - Public opening: May 15, 1889",
+            "score": 0.7500039,
+            "published": null
+          },
+          {
+            "idx": 6,
+            "title": "Eiffel Tower history, architecture, design & construction",
+            "url": "https://www.toureiffel.paris/en/the-monument/history",
+            "domain": "toureiffel.paris",
+            "snippet": "All the elements were prepared in Eiffel’s factory located at Levallois-Perret on the outskirts of Paris. Each of the 18,000 pieces used to construct the Tower were specifically designed and calculated, drawn to an accuracy of one-tenth of a millimeter and then put together assembled into sections about five meters long (16 feet) each. A team of constructors, who had worked on the great metal viaduct projects, were responsible for the 150 to 300 workers on site assembling this giant construction project. ## The Rivet Workers [...] ## The Design of the Eiffel Tower The plan to build a tower 300 meters (984 feet) high was conceived as part of preparations for the Paris World's Fair of 1889. The challenge was to \"study the feasibility of building an iron tower on the Champ-de-Mars with a square base, 125 meters (410 feet) across and 300 meters (984 feet) tall\". Selected from among 107 proje",
+            "score": 0.7264256,
+            "published": null
+          },
+          {
+            "idx": 7,
+            "title": "Eiffel Tower information : facts, height in feet, weight, ...",
+            "url": "https://www.toureiffel.paris/en/the-monument/key-figures",
+            "domain": "toureiffel.paris",
+            "snippet": "| | | --- | | Current height | 1083 feet | | Original height without the antennas | 1024 feet | | Total width | 410 feet (on the ground) | | Width of a pillar | 82 feet (on the ground) | | First floor | 187 feet, 14,485 square feet | | Second floor | 377 feet, 4,692 square feet | | Third floor | 906 feet, 820 square feet | | Elevators | 5 elevators from the esplanade to second floor, 2 x 2 duolifts from second floor to the top | | Weight of the metal frame | 7,300 tons | [...] Cet article vous a plu ? Partagez-le ### On the same theme Eiffel Tower under construction #### Origins and Construction of the Eiffel Tower World's Fair 1889 #### The Eiffel Tower during the 1889 Exposition Universelle View of the Statue of Liberty in Paris with the Eiffel Tower in the background #### The Eiffel Tower in the world TOUREIFFEL.PARIS LE SITE OFFICIEL DE LA TOUR EIFFEL Un site de la Société d'Exploita",
+            "score": 0.36761075,
+            "published": null
+          },
+          {
+            "idx": 8,
+            "title": "Changes in Paris Travel, 2026 | Louvre, Versailles & Eiffel Tower Tips",
+            "url": "https://www.youtube.com/watch?v=I3RZP7jFrFY",
+            "domain": "youtube.com",
+            "snippet": "[8:55] The tower sees between 6 and 7 million visitors [music] yearly. Book online weeks in advance or you won't get [9:02] tickets. Walk up tickets sell out daily by 10:00 a.m. in high season. Pro tip: [9:06] [music] [9:06] Go at night. The tower sparkles for 5 minutes every hour after sunset. Less crowded after 8:00 p.m. Skip the summit [...] From rising Louvre prices to new crowd management rules at Mont Saint-Michel and the latest ticket updates at the Eiffel Tower, this guide walks you through what to expect when visiting Paris in 2026 and how to plan ahead for a smoother trip. Brandon shares practical tips for visiting the most famous sights in Paris, including when to book tickets, what attractions are worth prioritizing, and how guided tours can help you skip lines and make the most of your time in the city. [...] [8:14] [music] Couldn't get any pics. Skip the line Abby Access Ex",
+            "score": 0.35153365,
+            "published": null
+          }
+        ],
+        "strength": {
+          "score": 78,
+          "label": "Strong",
+          "factors": {
+            "source_count": 23.3,
+            "source_quality": 17.5,
+            "relevance": 17.2,
+            "grounding": 10.0,
+            "consistency": 10.0
+          },
+          "maximums": {
+            "source_count": 35.0,
+            "source_quality": 25.0,
+            "relevance": 20.0,
+            "grounding": 10.0,
+            "consistency": 10.0
+          }
+        },
+        "model_confidence": "high",
+        "contradictory": false,
+        "outdated": false,
+        "error": null,
+        "error_kind": null
+      },
+      {
+        "claim": {
+          "id": "C04",
+          "text": "The Great Wall of China is easily visible to the unaided human eye from the Moon.",
+          "quote": "The Great Wall of China is easily visible to the unaided human eye from the Moon.",
+          "page": 1,
+          "category": "other_fact",
+          "search_query": "Great Wall visible from Moon"
+        },
+        "verdict": "FALSE",
+        "corrected_fact": "The Great Wall of China cannot be seen with the unaided human eye from the Moon; astronauts have reported it is not visible from that distance.",
+        "explanation": "Multiple astronaut accounts and reputable sources state the wall is not visible from the Moon, debunking the myth.",
+        "citations": [
+          {
+            "source_idx": 1,
+            "stance": "contradicts",
+            "quote": "Michael Collins, Apollo 11: No man-made object stood out from the Moon, wall included.",
+            "quote_matched": true
+          },
+          {
+            "source_idx": 2,
+            "stance": "contradicts",
+            "quote": "The Great Wall of China cannot be seen by the naked human eye from the Moon...",
+            "quote_matched": true
+          },
+          {
+            "source_idx": 4,
+            "stance": "contradicts",
+            "quote": "The claim was disproved when astronauts stated that the Great Wall of China was not visible with the naked eye from the Moon.",
+            "quote_matched": true
+          }
+        ],
+        "sources": [
+          {
+            "idx": 1,
+            "title": "Is the Great Wall of China Visible From Space? Real Answer - Nibble Blog",
+            "url": "https://nibble-app.com/blog/is-the-great-wall-of-china-visible-from-space",
+            "domain": "nibble-app.com",
+            "snippet": "## What six astronauts saw when they looked for it Below is what these astronauts reported, in order: 1. Michael Collins, Apollo 11: No man-made object stood out from the Moon, wall included. 2. Neil Armstrong: Reported the same from that distance. 3. Jim Lovell, Apollo 8 and 13: Saw no visible structures either. 4. Apollo 15's Jim Irwin: Echoed the same conclusion. 5. Yang Liwei, 2003: Couldn't spot the wall from low Earth orbit. 6. Commander Leroy Chiao, 2004: Got a hazy ISS photo, only with a strong zoom lens. Every account that got close enough to check came back with the same answer, and it lines up with why space looks black once astronauts reach orbit. ## Why width and color keep the wall hidden from orbit [...] ## Low orbit vs. the Moon: Two distances people mix up Confusion here comes from blending two vantage points. The ISS orbits around 250 miles up, which counts as low orbit",
+            "score": 0.8385476,
+            "published": null
+          },
+          {
+            "idx": 2,
+            "title": "Great Wall of China - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+            "domain": "en.wikipedia.org",
+            "snippet": "### From the Moon The Great Wall of China cannot be seen by the naked human eye from the Moon which orbits around Earth at an average distance of 384,399 kilometres (238,854 mi). Even though the myth has been thoroughly debunked, it is still ingrained in popular culture. The apparent width of the Great Wall as seen from the Moon would be the same as that of a human hair viewed from 3 km (2 mi) away. [...] One of the earliest known references to the myth of the Great Wall's visibility from the Moon appears in a letter written in 1754 by the English antiquary William Stukeley. Stukeley wrote that, \"This mighty wall [Hadrian's Wall] of four score miles [130 km] in length is only exceeded by the Chinese Wall, which makes a considerable figure upon the terrestrial globe, and may be discerned at the Moon.\" The claim was also mentioned in 1895 by Henry Norman, who wrote \"besides its age it enjo",
+            "score": 0.83196384,
+            "published": null
+          },
+          {
+            "idx": 3,
+            "title": "Is China's Great Wall Visible from Space? | Scientific American",
+            "url": "https://www.scientificamerican.com/article/is-chinas-great-wall-visible-from-space",
+            "domain": "scientificamerican.com",
+            "snippet": "Misinformation about the barrier's visibility dates back decades. A 1932 Ripley's Believe It or Not! cartoon claimed that the wall is \"the mightiest work of man, the only one that would be visible to the human eye from the moon.\" The belief persisted into the Space Age. Since Neil Armstrong returned from the moon in 1969, he has been repeatedly asked whether he could see it. His answer was relayed in a recent NASA Johnson Space Center oral history: He saw continents, lakes and splotches of white on blue. But he could not make out any man-made structures from the lunar surface, which averages a distance of 230,000 miles (370,000 kilometers) from Earth. [...] Choose a legend: The Great Wall of China is the one of the few man-made structures visible from orbit. Or, more remarkably, it's the only human artifact on Earth visible from the moon. Both are false, say astronauts and remote-sensing",
+            "score": 0.82432055,
+            "published": null
+          },
+          {
+            "idx": 4,
+            "title": "Can you see the Great Wall of China from space? | Britannica",
+            "url": "https://www.britannica.com/question/Can-you-see-the-Great-Wall-of-China-from-space",
+            "domain": "britannica.com",
+            "snippet": "The Editors of Encyclopaedia Britannica You typically can’t see the Great Wall of China from space. A popular myth, the claim was disproved when astronauts stated that the Great Wall of China was not visible with the naked eye from the Moon. Due to its coloration and pollution, the structure is only sometimes visible from low orbit and the International Space Station. _verified_ Cite While every effort has been made to follow citation style rules, there may be some discrepancies. Please refer to the appropriate style manual or other sources if you have any questions. Select Citation Style The Editors of Encyclopaedia Britannica. \"Can you see the Great Wall of China from space?\". _Encyclopedia Britannica_, 14 Feb. 2025, Accessed 28 October 2026. Copy Citation",
+            "score": 0.8086723,
+            "published": null
+          },
+          {
+            "idx": 5,
+            "title": "Great Wall of China | Definition, History, Length, Map, Location, & Facts | Britannica",
+            "url": "https://www.britannica.com/topic/Great-Wall-of-China",
+            "domain": "britannica.com",
+            "snippet": "### How old is the Great Wall of China? Historians usually consider the defensive walls built during the Spring and Autumn period (770–476 BCE) and the Warring States period (475–221 BCE) to be the first sections of what would eventually become the structure known as the Great Wall of China, putting the wall at almost 3,000 years old. ### Can you see the Great Wall of China from space? You typically can’t see the Great Wall of China from space. A popular myth, the claim was disproved when astronauts stated that the Great Wall of China was not visible with the naked eye from the Moon. Due to its coloration and pollution, the structure is only sometimes visible from low orbit and the International Space Station. ## News • Great Wall of China ice: tourists slip after first snow [...] ## History of construction The Great Wall developed from the disparate border fortifications and castles of ",
+            "score": 0.8045595,
+            "published": null
+          },
+          {
+            "idx": 6,
+            "title": "What makes the Great Wall of China the only man-made object visible from space? | Science Questions with Surprising Answers",
+            "url": "https://www.wtamu.edu/~cbaird/sq/2012/12/11/what-makes-the-great-wall-of-china-the-only-man-made-object-visible-from-space",
+            "domain": "wtamu.edu",
+            "snippet": "The Great Wall of China is not visible to the naked eye from space, even in low-earth orbit, according to NASA. Even though the wall is very long, it is also very thin, making it essentially invisible. In fact, no man-made objects are visible from space by the naked eye, according to astronauts. The earth is a very big place and human-sized objects are miniscule by comparison. With the help of zoom lenses, cameras in space can see much finer detail than human eyes. However, due to its thinness, the Great Wall of China is not the easiest man-made object for a camera in space to spot. If you slowly zoom in using a space camera, the Houston airport, for instance, is visible long before the Great Wall of China. Major highways radiating out like spokes from large cities are typically the most [...] out like spokes from large cities are typically the most visible structures from space for a ca",
+            "score": 0.790692,
+            "published": null
+          },
+          {
+            "idx": 7,
+            "title": "Great Wall - NASA",
+            "url": "https://www.nasa.gov/image-article/great-wall",
+            "domain": "nasa.gov",
+            "snippet": "The Great Wall of China and Inner Mongolia are featured in this image photographed by Expedition 10 Commander Leroy Chiao on the International Space Station. Despite myths to the contrary, the wall isn’t visible from the moon, and is difficult or impossible to see from Earth orbit without the high-powered lenses used for this photo. Image Credit: NASA",
+            "score": 0.49086863,
+            "published": null
+          },
+          {
+            "idx": 8,
+            "title": "Artificial structures visible from space - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Artificial_structures_visible_from_space",
+            "domain": "en.wikipedia.org",
+            "snippet": "11. ↑ Hvistendahl, Mara (February 21, 2008). \"Is China's Great Wall Visible from Space?\". Scientific American. Archived from the original on 2013-12-17. Retrieved 2024-08-14. [T]he wall is only visible from low orbit under a specific set of weather and lighting conditions. And many other structures that are less spectacular from an earthly vantage point—desert roads, for example—appear more prominent from an orbital perspective. [...] 12. ↑ The Family Memoirs of the Rev. William Stukeley (1887) Vol. 3, p. 142. (1754) \"Chinese wall, which makes a considerable figure upon the terrestrial globe, and may be discerned at the moon.\" 13. ↑ Norman, Henry, The Peoples and Politics of the Far East, p. 215. (1895) \"Besides its age it enjoys the reputation of being the only work of human hands on the globe visible from the moon.\" 14. ↑ \"How is Great Wall of China from Space? Archived 2012-03-31 at t",
+            "score": 0.35846534,
+            "published": null
+          }
+        ],
+        "strength": {
+          "score": 87,
+          "label": "Strong",
+          "factors": {
+            "source_count": 35.0,
+            "source_quality": 15.4,
+            "relevance": 16.5,
+            "grounding": 10.0,
+            "consistency": 10.0
+          },
+          "maximums": {
+            "source_count": 35.0,
+            "source_quality": 25.0,
+            "relevance": 20.0,
+            "grounding": 10.0,
+            "consistency": 10.0
+          }
+        },
+        "model_confidence": "high",
+        "contradictory": false,
+        "outdated": false,
+        "error": null,
+        "error_kind": null
+      },
+      {
+        "claim": {
+          "id": "C05",
+          "text": "An adult human skeleton typically contains 206 bones.",
+          "quote": "An adult human skeleton typically contains 206 bones.",
+          "page": 1,
+          "category": "statistic",
+          "search_query": "number of bones in adult human skeleton"
+        },
+        "verdict": "VERIFIED",
+        "corrected_fact": null,
+        "explanation": "All cited sources state that the typical adult human skeleton consists of 206 bones, confirming the claim.",
+        "citations": [
+          {
+            "source_idx": 1,
+            "stance": "supports",
+            "quote": "An adult human skeleton is commonly quoted as consisting of 206 bones.",
+            "quote_matched": true
+          }
+        ],
+        "sources": [
+          {
+            "idx": 1,
+            "title": "List of bones of the human skeleton - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/List_of_bones_of_the_human_skeleton",
+            "domain": "en.wikipedia.org",
+            "snippet": "An adult human skeleton is commonly quoted as consisting of 206 bones. Reports on the typical number of bones have varied historically depending on how different sources choose to count features such as fused bones (for example, the sternum). The actual number of bones in any individual skeleton varies depending on factors such as age and anatomical variation. The list of 206 bones in the adult skeleton can be subdivided into the axial skeleton (80 bones) and the appendicular skeleton (126 bones). 172 of 206 bones are part of a pair and the remaining 34 are unpaired. Many small accessory bones, such as sesamoid bones, are not included in the standard list. ## Introduction [edit] [...] Sternum (1) + Manubrium + Gladiolus + Xiphoid process Ribs - 12 pairs (24) + Cervical ribs are extra or supernumerary ribs that can occur pathologically in some people. ### Spine (vertebral column) [edit\")]",
+            "score": 0.86669767,
+            "published": null
+          },
+          {
+            "idx": 2,
+            "title": "Human skeleton - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Human_skeleton",
+            "domain": "en.wikipedia.org",
+            "snippet": "The human skeleton is the internal framework of the human body. It is composed of around 270 bones at birth – this total decreases to around 206 bones by adulthood after some bones fuse together, not counting accessory bones. The bone mass in the skeleton makes up about 14% of the total body weight (ca. 10–11 kg for an average person) and reaches maximum mass between the ages of 25 and 30. The human skeleton can be divided into the axial skeleton and the appendicular skeleton. The axial skeleton is formed by the spinal column, the rib cage, the skull, and associated bones. The appendicular skeleton, which is attached to the axial skeleton, is formed by the shoulder girdle, the pelvic girdle and the bones of the upper and lower limbs \"Limb (anatomy)\"). [...] ## Divisions | | | This section does not cite any sources. Please help improve this section by adding citations to reliable sources.",
+            "score": 0.86442494,
+            "published": null
+          },
+          {
+            "idx": 3,
+            "title": "Divisions of the Skeletal System | Anatomy and Physiology I",
+            "url": "https://courses.lumenlearning.com/suny-ap1/chapter/divisions-of-the-skeletal-system",
+            "domain": "courses.lumenlearning.com",
+            "snippet": "The axial skeleton of the adult consists of 80 bones, including the skull, the vertebral column, and the thoracic cage. The skull is formed by 22 bones. Also associated with the head are an additional seven bones, including the hyoid bone and the ear ossicles (three small bones found in each middle ear). The vertebral column consists of 24 bones, each called a vertebra, plus the sacrum and coccyx. The thoracic cage includes the 12 pairs of ribs, and the sternum, the flattened bone of the anterior chest. This diagram shows the human skeleton and identifies the major bones. The left panel shows the anterior view (from the front) and the right panel shows the posterior view (from the back). [...] The skeletal system includes all of the bones, cartilages, and ligaments of the body that support and give shape to the body and body structures. The skeleton consists of the bones of the body. For",
+            "score": 0.8596637,
+            "published": null
+          },
+          {
+            "idx": 4,
+            "title": "How Many Bones in the Human Body? The Honest Count",
+            "url": "https://acibademinternational.com/blog/how-many-bones-in-the-human-body-a-skeletons-inventory",
+            "domain": "acibademinternational.com",
+            "snippet": "- The standard adult count is 206 bones, but sesamoid and accessory bones mean many perfectly healthy people carry a few more: 206 is a convention, not a law. - Newborns have roughly 300 separate bony elements, and fusion continues into the mid-twenties, with the collarbone typically the last bone to finish. - Your hands and feet hold 106 bones between them, more than half your entire skeleton, because precision movement requires many small joints. - Teeth are not counted among the 206 because enamel contains no living cells and, unlike bone, can never remodel or heal itself. - The stapes in your middle ear measures about 3 millimeters and is adult-sized at birth, while the femur makes up roughly a quarter of your height. [...] Most adults have 206 bones, though the exact number varies slightly from person to person because of small extra bones, such as sesamoids and accessory bones, tha",
+            "score": 0.8581252,
+            "published": null
+          },
+          {
+            "idx": 5,
+            "title": "How many bones are in the adult human skeleton? | Britannica",
+            "url": "https://www.britannica.com/science/How-many-bones-are-in-the-adult-human-skeleton",
+            "domain": "britannica.com",
+            "snippet": "Britannica Sources used in this answer # How many bones are in the adult human skeleton? Created from Britannica articles using AI. AI can make mistakes, so verify using Britannica articles. The adult human skeleton typically consists of 206 individual bones. This framework is divided into two primary subdivisions: - The Axial Skeleton: Comprising 80 bones, this section includes the skull, the vertebral column, and the rib cage. It serves primarily to support and protect the central nervous system and the organs of the chest.12 - The Appendicular Skeleton: This subdivision consists of the remaining bones, which include the pelvic and pectoral girdles as well as the bones of the upper and lower limbs.12",
+            "score": 0.8517063,
+            "published": null
+          },
+          {
+            "idx": 6,
+            "title": "Divisions of the Skeleton | SEER Training",
+            "url": "https://training.seer.cancer.gov/anatomy/skeletal/divisions",
+            "domain": "training.seer.cancer.gov",
+            "snippet": "# Divisions of the Skeleton The adult human skeleton usually consists of 206 named bones. These bones can be grouped in two divisions: axial skeleton and appendicular skeleton. The 80 bones of the axial skeleton form the vertical axis of the body. They include the bones of the head, vertebral column, ribs and breastbone or sternum. The appendicular skeleton consists of 126 bones and includes the free appendages and their attachments to the axial skeleton. The free appendages are the upper and lower extremities, or limbs, and their attachments which are called girdles. The named bones of the body are listed below by category. Previous Classification of BonesNext Axial Skeleton (80 bones) ## Suggested Citation",
+            "score": 0.8500957,
+            "published": null
+          },
+          {
+            "idx": 7,
+            "title": "How Many Bones Are in the Human Body? 206, and Counting",
+            "url": "https://acibademinternational.com/blog/how-many-bones-are-in-the-human-body-the-count-that-changes-as-you-grow",
+            "domain": "acibademinternational.com",
+            "snippet": "| Region | Bones | Notable details | --- | Skull | 22 | 8 cranial, 14 facial; only the jaw moves | | Middle ear ossicles | 6 | 3 per ear; smallest bones in the body | | Hyoid | 1 | Floats in the neck, anchored only by muscle | | Spine | 26 | 24 vertebrae plus fused sacrum and coccyx | | Ribs and sternum | 25 | 12 pairs of ribs plus the breastbone | | Shoulder girdles | 4 | 2 collarbones, 2 shoulder blades | | Arms and hands | 60 | 27 bones per hand alone | [...] The standard answer is 206. That’s the count anatomists arrive at when they tally every individually named bone in a typical adult skeleton, from the eight bones of the cranium down to the fourteen tiny phalanges in each foot. It’s the number medical students memorize and the one you’ll find on charts at MedlinePlus and the Cleveland Clinic. [...] Both numbers circulate online, and the disagreement comes down to counting rules, n",
+            "score": 0.5362218,
+            "published": null
+          }
+        ],
+        "strength": {
+          "score": 66,
+          "label": "Moderate",
+          "factors": {
+            "source_count": 11.7,
+            "source_quality": 17.5,
+            "relevance": 17.3,
+            "grounding": 10.0,
+            "consistency": 10.0
+          },
+          "maximums": {
+            "source_count": 35.0,
+            "source_quality": 25.0,
+            "relevance": 20.0,
+            "grounding": 10.0,
+            "consistency": 10.0
+          }
+        },
+        "model_confidence": "high",
+        "contradictory": false,
+        "outdated": false,
+        "error": null,
+        "error_kind": null
+      },
+      {
+        "claim": {
+          "id": "C06",
+          "text": "The Burj Khalifa is 1,250 metres tall.",
+          "quote": "The Burj Khalifa is 1,250 metres tall.",
+          "page": 1,
+          "category": "technical",
+          "search_query": "Burj Khalifa height metres"
+        },
+        "verdict": "FALSE",
+        "corrected_fact": "The Burj Khalifa is 828 metres tall (approximately 2,717 ft).",
+        "explanation": "All provided sources list the height of the Burj Khalifa as about 828 m, not 1,250 m. The claim greatly overstates the actual height.",
+        "citations": [
+          {
+            "source_idx": 2,
+            "stance": "contradicts",
+            "quote": "it is the world's tallest structure, with a total height of 829.8 m ... and a roof height ... of 828 m",
+            "quote_matched": false
+          },
+          {
+            "source_idx": 5,
+            "stance": "contradicts",
+            "quote": "At 828 m (2,716 ft 6 in) tall, the Burj is more than twice the height of the Empire State Building",
+            "quote_matched": true
+          }
+        ],
+        "sources": [
+          {
+            "idx": 1,
+            "title": "List of tallest buildings - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/List_of_tallest_buildings",
+            "domain": "en.wikipedia.org",
+            "snippet": "## Tallest buildings in the world | | Name | Height\\\\ | | Floors | Image | City | Country | Year | Comments | Ref | |---|---|---|---|---|---|---|---|---|---|---| | | | m | ft | | | | | | | | | 1 | Burj Khalifa | 828 | 2,717 | 163 (+ 2 below ground) | | Dubai | United Arab Emirates | 2010 | Tallest building in the world since 2009 | \\ | | 2 | Merdeka Maybank Tower | 678.9 | 2,227 | 118 (+ 5 below ground) | | Kuala Lumpur | Malaysia | 2024 | Tallest building in Southeast Asia | \\ | | 3 | Shanghai Tower | 632 | 2,073 | 128 (+ 5 below ground) | | Shanghai | China | 2015 | Tallest building in East Asia, tallest twisted building in the world; second tallest by floor count; contains the highest luxury hotel in the world. Tallest building in China. | \\ | | 4 | Mecca Royal Clock Tower | 601 | 1,972 | 120 (+ 3 below ground) | | Mecca | Saudi Arabia | 2012 | Tallest building in Saudi Arabia, talles",
+            "score": 0.96704298,
+            "published": null
+          },
+          {
+            "idx": 2,
+            "title": "Burj Khalifa - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Burj_Khalifa",
+            "domain": "en.wikipedia.org",
+            "snippet": "Website burjkhalifa.ae References \\ The Burj Khalifa\\[a] (previously known as Burj Dubai prior to inauguration) is a megatall skyscraper in Dubai, United Arab Emirates. Designed by Skidmore, Owings & Merrill, it is the world's tallest structure, with a total height of 829.8 m (2,722 ft, or just over half a mile) and a roof height (excluding the antenna, but including a 242.6 m spire)\\ of 828 m (2,717 ft). It has been the tallest building in the world since its complete inauguration in 2011, surpassing Taipei 101, which had held the record since 2004.\\\\ [...] # Burj Khalifa Burj Khalifa برج خليفة Recordheight Tallest in the world since 2011\\[I] PrecededbyTaipei 101 General information StatusCompleted TypeMixed-use Architectural style Neo-futurism Location1 Sheikh Mohammed bin Rashid Boulevard, Dubai, Emirate of Dubai, United Arab Emirates NamedforSheikh Khalifa Construction started 6Janua",
+            "score": 0.8662457,
+            "published": null
+          },
+          {
+            "idx": 3,
+            "title": "Burj Khalifa : a tower with a height of 828 meters and the tallest skyscraper in the world 🤯",
+            "url": "https://www.youtube.com/watch?v=c2PZbb5F7hU",
+            "domain": "youtube.com",
+            "snippet": "[3:57] Khalifa are decorated with plants that are compatible with the hot climate of Dubai. [4:06] More than 1,000 works of art from prominent Middle Eastern and international artists have decorated [4:12] the Burj Khalifa and around Mohammed Bin Rashid Boulevard. The Ammar company commissioned many [4:18] works of art specifically to pay tribute to the spirit of global harmony. They have been [4:23] chosen to connect cultures and societies. Burj Khalifa, formerly known as Burj Dubai, [4:30] is a structure that was built at a cost of over 1.5 billion dollars. This structure has [4:36] 160 floors, and its height reaches 829.8 meters to the top of the telecommunication antenna. [4:45] Visit this amazing tower as soon as possible and comment your opinion [...] [3:11] which are cleaned by a professional team of 36 people in a period of about three months. [3:16] The aluminum used in the towe",
+            "score": 0.8489722,
+            "published": null
+          },
+          {
+            "idx": 4,
+            "title": "Burj Khalifa: The Iconic Skyscraper of Dubai's Skyline",
+            "url": "https://www.captureatrip.com/blog/burj-khalifa",
+            "domain": "captureatrip.com",
+            "snippet": "Burj Khalifa is one of the most magnificent symbols of the city claiming the title of the tallest structure in the world. Standing at 828m high, it is the tallest building in the world and therefore symbolises Dubai’s vision and determination. The Burj Khalifa is embedded in the city‘s central business district, commonly known as Downtown Dubai Burj Khalifa as millions of tourists visit the tall structure every year due to the architectural design and height. In its turn, the Burj Khalifa conveys the ideas of luxury, progress, and possibilities that can be unveiled to people when they acquire the most marvelous invention – vertical space. [...] ### Burj Khalifa Height and Floors It is among the various characteristics of the Burj Khalifa that are most exciting and overwhelming to human beings. Measuring 828 metres (or Burj Khalifa height in feet: Standing at 2,717 feet), it is much large",
+            "score": 0.8482194,
+            "published": null
+          },
+          {
+            "idx": 5,
+            "title": "Burj Khalifa: The tallest building in the world | Guinness World Records",
+            "url": "https://www.guinnessworldrecords.com/records/hall-of-fame/burj-khalifa-tallest-building-in-the-world",
+            "domain": "guinnessworldrecords.com",
+            "snippet": "\"It’s a very impressive building with a very unique design,\" said Talal Omar, Country Manager of UAE, Guinness World Records, on announcing the record. ## Breaking records At 828 m (2,716 ft 6 in) tall, the Burj is more than twice the height of the Empire State Building, and almost three times the size of the Eiffel Tower. In the course of confirming the Burj as the World’s tallest building, Guinness World Records also ratified a number of other lofty achievements for the ground-breaking structure. To name a few, it has the Tallest elevator in a building (504 m; 1,654 ft), can boast the Most floors in a building (163) and the Highest restaurant from ground level (441.3 m; 1,447 ft 10 in). [...] The towering property was developed by Emaar Properties and the architects Skidmore, Owings & Merrill LLP, headed up by renowned American architect, Adrian Smith. Reaching a breath-taking 828 m (2",
+            "score": 0.8451773,
+            "published": null
+          },
+          {
+            "idx": 6,
+            "title": "What Is A Burj",
+            "url": "https://www.instagram.com/popular/what-is-a-burj",
+            "domain": "instagram.com",
+            "snippet": "Burj Khalifa – Tallest Building in the World 🏙️ Top Facts About Burj Khalifa #BurjKhalifa #TallestBuilding #Dubai #UAE #GK Burj Khalifa – Tallest Building in the World | Height, Facts & Dubai Landmark Discover amazing facts about the Burj Khalifa, the tallest building in the world located in Dubai, United Arab Emirates. Standing at 829.8 meters (2,722 ft), this incredible skyscraper is an engineering marvel and one of the most famous landmarks on Earth. In this video, learn about the height, construction, architecture, and fascinating world records of the Burj Khalifa. Perfect for general knowledge, geography, and world facts lovers. Watch till the end to explore one of the greatest modern wonders of the world! burj khalifa, burj khalifa facts, tallest building in the world, burj khalifa [...] Burj Khalifa – Tallest Building in the World 🏙️ Top Facts About Burj Khalifa #BurjKhalifa #Tall",
+            "score": 0.83894384,
+            "published": null
+          },
+          {
+            "idx": 7,
+            "title": "Burj Khalifa 2026 Guide: Height, Floors, Tickets & Ownership",
+            "url": "https://www.gurudaasrealty.com/blog/burj-khalifa-guide-2026",
+            "domain": "gurudaasrealty.com",
+            "snippet": "## Frequently Asked Questions The Burj Khalifa height is 828 metres, or approximately 2,716.5 feet. Residential areas occupy Levels 19 to 108, while Armani residences are located on Levels 9-16. The Burj Khalifa observation decks are located on floors 124, 125, and 148; while the luxury observation decks are located on 152, 153, and 154. The Burj Khalifa is owned by Emaar Properties, a public real estate developer in Dubai. [...] | | | --- | | Feature | Details | | Location | Downtown Dubai, UAE | | Height | 828 metres | | Height in feet | 2,716.5 feet | | Developer | Emaar Properties PJSC | | Architect and Engineering Firm | Skidmore, Owings & Merrill (SOM) | | Designer | Adrian Smith | | Official opening | 4 January 2010 | | Armani Hotel | 160 rooms | | Armani Residences | 144 suites | | The Residence | 900 homes | | Main observation levels | 124, 125 and 148 | | World’s highest lounge",
+            "score": 0.7358315,
+            "published": null
+          },
+          {
+            "idx": 8,
+            "title": "Architecture Hub on Facebook: \"At 2,717 feet (828 m), Dubai’s Burj Khalifa remains the world’s tallest completed building. It is fo…\"",
+            "url": "https://www.facebook.com/archpng/posts/at-2717-feet-828-m-dubais-burj-khalifa-remains-the-worlds-tallest-completed-buil/1148767810983628",
+            "domain": "facebook.com",
+            "snippet": "This measurement includes architectural spires but excludes antennas. Guangzhou CTF Finance Centre and Tianjin CTF Finance Centre share eighth place, both standing 1,739 feet (530 m) tall. The buildings are shown as illustrations. Rankings and heights: The Skyscraper Center, 2026. [Image: May be a graphic of skyscraper, La Sagrada Familia and text] [...] - Author: Architecture Hub - Posted: 2026-10-10T12:06:42+00:00 - Shared link: - Links: - Reactions: 2918 - Comment count: 233 - Shares: 323 - Privacy: Public ## Comments [...] - Kalani Nishimura: got near the zhu jiang xin cheng (new-town), guangzhou CTF tower back in march 05, 2026 - 1740 ft high. there is also the canton tower, about 1/2 mile away from this, going 1968 ft high - but tha's pinnacle at the top. the actual building is probably only 1500 ft high. - Janko Deželić: The tallest European building is in Russia (462 m). - James ",
+            "score": 0.61468315,
+            "published": null
+          }
+        ],
+        "strength": {
+          "score": 70,
+          "label": "Strong",
+          "factors": {
+            "source_count": 23.3,
+            "source_quality": 14.4,
+            "relevance": 17.1,
+            "grounding": 5.0,
+            "consistency": 10.0
+          },
+          "maximums": {
+            "source_count": 35.0,
+            "source_quality": 25.0,
+            "relevance": 20.0,
+            "grounding": 10.0,
+            "consistency": 10.0
+          }
+        },
+        "model_confidence": "high",
+        "contradictory": false,
+        "outdated": false,
+        "error": null,
+        "error_kind": null
+      },
+      {
+        "claim": {
+          "id": "C07",
+          "text": "The Amazon rainforest covers about 12 million square kilometres.",
+          "quote": "The Amazon rainforest covers about 12 million square kilometres.",
+          "page": 1,
+          "category": "statistic",
+          "search_query": "area of Amazon rainforest square kilometres"
+        },
+        "verdict": "FALSE",
+        "corrected_fact": null,
+        "explanation": "All evidence sources report the Amazon rainforest area between about 5.5 and 8.2 million square kilometres, far less than the claimed 12 million.",
+        "citations": [
+          {
+            "source_idx": 1,
+            "stance": "contradicts",
+            "quote": "covers 7,000,000 square kilometres ... Of this, 5,500,000 square kilometres ... are covered by the rainforest",
+            "quote_matched": false
+          },
+          {
+            "source_idx": 4,
+            "stance": "contradicts",
+            "quote": "covers 7.8-8.2 million square km ... of which just over 80 percent is forested",
+            "quote_matched": false
+          }
+        ],
+        "sources": [
+          {
+            "idx": 1,
+            "title": "Amazon rainforest - Simple English Wikipedia, the free encyclopedia",
+            "url": "https://simple.wikipedia.org/wiki/Amazon_Rainforest",
+            "domain": "simple.wikipedia.org",
+            "snippet": "Title: Amazon rainforest - Simple English Wikipedia, the free encyclopedia # Amazon rainforest. Map of the Amazon rainforest ecoregions. How people collect rubber from trees. The **Amazon rainforest** is the largest tropical rainforest in the world. The forest is in a basin drained mainly by the Amazon River, with 1,100 tributaries. It is a moist broadleaf forest which covers 7,000,000 square kilometres (2,700,000 sq mi). Of this, 5,500,000 square kilometres (2,100,000 sq mi) are covered by the rainforest. Most of the forest is in Brazil, with 60% of the rainforest, followed by Peru with 13%, and Colombia with 10%. The Amazon has over half of the planet's rainforest area. It is the largest and most species-rich tract of tropical rainforest in the world. Tropical forests in the Americas have more species than African and Asian wet forests. More than one-third of all species in the world l",
+            "score": 0.8620035,
+            "published": null
+          },
+          {
+            "idx": 2,
+            "title": "The amazon rainforest encompasses an area of 5 500 000 sq kilometres 2 100 000 sq mi which is two times the size of argentina | The Fact Base",
+            "url": "https://thefactbase.com/the-amazon-rainforest-encompasses-an-area-of-5-500-000-sq-kilometres-2-100-000-sq-mi-which-is-two-times-the-size-of-argentina",
+            "domain": "thefactbase.com",
+            "snippet": "Title: The amazon rainforest encompasses an area of 5 500 000 sq kilometres 2 100 000 sq mi which is two times the size of argentina | The Fact Base # The amazon rainforest encompasses an area of 5 500 000 sq kilometres 2 100 000 sq mi which is two times the size of argentina. ### The Amazon Rainforest: Twice the Size of Argentina. The Amazon rainforest is truly a marvel of nature, covering a vast area of 5,500,000 square kilometers (2,100,000 square miles) - a staggering size that is two times larger than Argentina1^. This expansive region is known for its exceptional biodiversity, breathtaking landscapes, and crucial role in regulating the Earth’s climate. Nestled predominantly within Brazil, but also stretching to parts of Peru, Colombia, Bolivia, Ecuador, Venezuela, Guyana, Suriname, and French Guiana, the Amazon rainforest is considered the world’s largest tropical rainforest1^. Its",
+            "score": 0.8564525,
+            "published": null
+          },
+          {
+            "idx": 3,
+            "title": "Amazon rainforest - Simple English Wikipedia, the free encyclopedia",
+            "url": "https://simple.wikipedia.org/wiki/Amazon_rainforest",
+            "domain": "simple.wikipedia.org",
+            "snippet": "# Amazon rainforest The Amazon rainforest is the largest tropical rainforest in the world. The forest is in a basin drained mainly by the Amazon River, with 1,100 tributaries. It is a moist broadleaf forest which covers 7,000,000 square kilometres (2,700,000sqmi). Of this, 5,500,000 square kilometres (2,100,000sqmi) are covered by the rainforest. This region includes territory from nine nations. Most of the forest is in Brazil, with 60% of the rainforest, followed by Peru with 13%, and Colombia with 10%. Venezuela, Ecuador, Bolivia, Guyana, Suriname and French Guiana have just a small amount of rainforest.\\ [...] The Amazon has over half of the planet's rainforest area.\\ It has many species of plants some include rosewood, mahogany and ebony. It is the largest and most species-rich tract of tropical rainforest in the world.\\ The forest was formed at least 55 million years ago, in the Eoc",
+            "score": 0.8559716,
+            "published": null
+          },
+          {
+            "idx": 4,
+            "title": "Facts about the Amazon Rainforest",
+            "url": "https://worldrainforests.com/amazon/amazon-rainforest-facts.html",
+            "domain": "worldrainforests.com",
+            "snippet": "1. The Amazon is the world's biggest rainforest, larger than the next two largest rainforests — in the Congo Basin and Indonesia — combined. 2. At 6.9 million square kilometers (2.72 million square miles), the Amazon Basin is roughly the size of the forty-eight contiguous United States and covers some 40 percent of the South American continent. The \"Amazon rainforest\" — which defined biogeographically includes the rainforest in the Guianas, which technically are outside the Amazon Basin — covers 7.8-8.2 million square km (3-3.2 million square mi), of which just over 80 percent is forested.",
+            "score": 0.84504944,
+            "published": null
+          },
+          {
+            "idx": 5,
+            "title": "Amazon Rainforest | Earth and Atmospheric Sciences | Research Starters | EBSCOhost",
+            "url": "https://www.ebsco.com/research-starters/earth-and-atmospheric-sciences/amazon-rainforest",
+            "domain": "ebsco.com",
+            "snippet": "The Amazon rainforest is roughly 2.3 million square miles (6 million square kilometers) in size. That means that the Amazon rainforest is close in size to the lower forty-eight states of the United States. Most of the Amazon rainforest is located in Brazil, South America’s largest country, but it also covers parts of Peru, Ecuador, Colombia, Venezuela, Bolivia, Guyana, Suriname, and French Guiana. The rainforest covers about 40 percent of Brazil’s land area. The Atlantic Ocean borders the rainforest on its eastern side and the Guiana Highlands border it to the north. The Andes Mountains lie to the west and the Brazilian central plateau lies to its south. The Amazon River, which is the second-longest river in the world, flows through the center of the rainforest and its many tributaries [...] The Amazon rainforest is roughly 2.3 million square miles (6 million square kilometers) in size. ",
+            "score": 0.82976806,
+            "published": null
+          },
+          {
+            "idx": 6,
+            "title": "Amazon rainforest - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Amazon_rainforest",
+            "domain": "en.wikipedia.org",
+            "snippet": "The Amazon rainforest,\\[a] also called the Amazon jungle, Amazonia, or simply the Amazon, is a moist broadleaf tropical rainforest in the Amazon biome that covers most of the Amazon basin of South America. This basin encompasses 7 million km2 (2.7 million sq mi),\\ of which 6 million km2 (2.3 million sq mi) are covered by the rainforest.\\ This region includes territory belonging to nine nations and 3,344 indigenous territories. [...] # Amazon rainforest 5,500,000 km2 (2,100,000 sq mi) | Amazon rainforest | |---| | Part of a series on the | [...] Between 1991 and 2000, the total area of forest lost in the Amazon rose from 415,000 to 587,000 km2 (160,000 to 227,000 sq mi), with most of the lost forest becoming pasture for cattle.\\ Seventy percent of formerly forested land in the Amazon, and 91% of land deforested since 1970, have been used for livestock pasture.\\\\ Currently, Brazil is the l",
+            "score": 0.8115267,
+            "published": null
+          },
+          {
+            "idx": 7,
+            "title": "Amazon Rainforest News | Latest News - NewsNow",
+            "url": "https://www.newsnow.com/ng/World/Latin+America/South+America/Brazil/Amazon+Rainforest",
+            "domain": "newsnow.com",
+            "snippet": "Latest news on the Amazon Rainforest, also known as the Amazon Jungle or Amazonia, the world's largest tropical rainforest, spanning over 6.7 million square kilometres (2.7 million square miles) in South America. It is home to an immense biodiversity, including an estimated 390 billion individual trees, 16,000 species of plants, 2.5 million insect species, and thousands of animal species, many of which are endemic to the region. The rainforest is primarily located in Brazil, which holds about [...] which holds about 60% of the forest, but it also extends into Peru, Colombia, and several other countries. The Amazon River, the world's second-longest river, flows through the heart of the rainforest, providing water and nutrients to its vast ecosystems. The Amazon Rainforest plays a crucial role in regulating the Earth's climate by absorbing large amounts of carbon dioxide and producing abou",
+            "score": 0.52672315,
+            "published": null
+          },
+          {
+            "idx": 8,
+            "title": "Exploring Brazil's Vast Size: Total Area In Square Kilometres",
+            "url": "https://shunculture.com/article/how-large-is-brazil-in-square-kilometres",
+            "domain": "shunculture.com",
+            "snippet": "Analyzing Brazil’s dimensions reveals a unique geographical distribution. The Amazon Rainforest, which covers about 4 million square kilometers, dominates the northern region, accounting for nearly half of the country’s total area. This contrasts sharply with the densely populated southeastern region, which, despite being significantly smaller, houses major cities like São Paulo and Rio de Janeiro. Understanding this spatial imbalance is crucial for addressing environmental and developmental [...] Analyzing Brazil’s size reveals its strategic importance in global resource distribution. The country houses the Amazon Rainforest, which covers over 4 million square kilometers, or nearly half of its territory. This makes Brazil a critical player in global environmental policies, as the Amazon is often referred to as the \"lungs of the Earth.\" Its size also translates to diverse ecosystems, fro",
+            "score": 0.4675749,
+            "published": null
+          }
+        ],
+        "strength": {
+          "score": 65,
+          "label": "Moderate",
+          "factors": {
+            "source_count": 23.3,
+            "source_quality": 14.4,
+            "relevance": 17.1,
+            "grounding": 0.0,
+            "consistency": 10.0
+          },
+          "maximums": {
+            "source_count": 35.0,
+            "source_quality": 25.0,
+            "relevance": 20.0,
+            "grounding": 10.0,
+            "consistency": 10.0
+          }
+        },
+        "model_confidence": "high",
+        "contradictory": false,
+        "outdated": false,
+        "error": null,
+        "error_kind": null
+      },
+      {
+        "claim": {
+          "id": "C08",
+          "text": "The world's population is approximately 7 billion people.",
+          "quote": "The world's population is approximately 7 billion people.",
+          "page": 1,
+          "category": "statistic",
+          "search_query": "world population 7 billion"
+        },
+        "verdict": "INACCURATE",
+        "corrected_fact": "The world population is approximately 8.3 billion people as of 2026.",
+        "explanation": "Recent live data show the global population around 8.3 billion in 2026, far above the claimed 7 billion. The claim reflects an outdated figure from around 2011‑2012.",
+        "citations": [
+          {
+            "source_idx": 2,
+            "stance": "updates",
+            "quote": "World Population Clock: 8.3 Billion People (LIVE, 2026)",
+            "quote_matched": false
+          }
+        ],
+        "sources": [
+          {
+            "idx": 1,
+            "title": "World population - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/World_population",
+            "domain": "en.wikipedia.org",
+            "snippet": "### Ten most populous countries Approximately 4.6 billion people live in these ten countries, representing around 57% of the world's population as of July 2023. | World population (millions, UN estimates) \\ | | | | | | --- | --- | --- | --- | --- | | \\# | Most populous countries | 2000 | 2015 | 2030\\[A] | | 1 | China\\[B] | 1,270 | 1,376 | 1,416 | | 2 | India | 1,053 | 1,311 | 1,528 | | 3 | United States | 283 | 322 | 356 | | 4 | Indonesia | 212 | 258 | 295 | | 5 | Pakistan | 136 | 208 | 245 | | 6 | Brazil | 176 | 206 | 228 | | 7 | Nigeria | 123 | 182 | 263 | | 8 | Bangladesh | 131 | 161 | 186 | | 9 | Russia | 146 | 146 | 149 | | 10 | Mexico | 103 | 127 | 148 | | | World total | 6,127 | 7,349 | 8,501 | | Notes: | | | | | [...] \\) Oceania54225,917,000 – Australia5,367,000 – Sydney Antarctica~00.004\\ N/A\\[note 2] 1,258 – McMurdo Station ## Largest populations by country ### Ten most populou",
+            "score": 0.88685627,
+            "published": null
+          },
+          {
+            "idx": 2,
+            "title": "World Population Clock: 8.3 Billion People (LIVE, 2026) - Worldometer",
+            "url": "https://www.worldometers.info/world-population",
+            "domain": "worldometers.info",
+            "snippet": "### 7 Billion (2010) According to the latest revision by the United Nations (released in 2024), world population reached 7 Billion in the first half of 2010 (after being previously estimated as occurring on October 31, 2011). The U.S. Census Bureau made a different estimate, for which the 7 billion mark was reached on March 12, 2012 . ### 6 Billion (1998) [...] 2. The International Programs Center at the U.S. Census Bureau, Population Division also develops estimates and projections based on analysis of available data (based on census, survey, and administrative information) on population, fertility, mortality, and migration for each country or area of the world. According to the U.S. Census Bureau, world population reached 7 billion on March 12, 2012.",
+            "score": 0.7900447,
+            "published": null
+          },
+          {
+            "idx": 3,
+            "title": "The World Population at 7 Billion",
+            "url": "https://www.census.gov/newsroom/blogs/random-samplings/2011/10/the-world-population-at-7-billion.html",
+            "domain": "census.gov",
+            "snippet": "For instance, according to Census Bureau estimates, the Earth’s population reached 4 billion in 1974, 5 billion in 1987, and 6 billion in 1999 (these figures are derived from the International Data Base, which compiles demographic estimates for 228 countries and areas of the world). In the future, as fertility continues to fall, it will take longer to add another billion. The Census Bureau currently expects that 14 years will pass before the world reaches the next milestone of 8 billion (in 2026) and then another 16 years before it reaches 9 billion (in 2042). The exact date at which such thresholds will be passed is uncertain, of course, since it depends on future birth and death rates. Even more uncertain is the future year at which the Earth’s population may reach a tipping point and [...] While the true world total population is not known, it is independently estimated by both the Un",
+            "score": 0.77167153,
+            "published": null
+          },
+          {
+            "idx": 4,
+            "title": "World population milestones - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/World_population_milestones",
+            "domain": "en.wikipedia.org",
+            "snippet": "The population of the world reached: 1 billion in 1804 (994,234,545) 2 billion in 1927 (1,998,342,567) 3 billion in 1960 (2,997,567,890) 4 billion in 1975 (3,990,234,567) 5 billion in 1987 (4,988,234,567) 6 billion in 1999 (5,980,247,450) 7 billion in 2011 (6,990,234,567) 8 billion in 2022 (7,990,245,666) 9 billion by 2037–2043 (8,999,245,456)(estimate), 15 years after 8 billion 10 billion by 2056–2074 9,999,899,234(estimate), 19 years after 9 billion [...] The \"Day of Seven Billion\" was targeted by the United States Census Bureau to be in March 2012, while the Population Division of the United Nations suggested 31 October 2011, and the latter date was officially designated by the United Nations Population Fund (UNFPA) as the approximate day on which the world's population reached seven billion people. United Nations Secretary General Ban Ki-moon spoke at the United Nations building in N",
+            "score": 0.75797355,
+            "published": null
+          },
+          {
+            "idx": 5,
+            "title": "7 Billion And Counting: World Population Hits A Milestone : NPR",
+            "url": "https://www.npr.org/series/141810687/7-billion-people-one-planet",
+            "domain": "npr.org",
+            "snippet": "Countdown To 7 Billion: A Tale Of Two Worlds Indian schoolchildren write English alphabets on slates at a primary school outside Hyderabad in June. India is on track to overtake China as the most populous nation in just 16 years. Noah Seelam/AFP/Getty Images hide caption Noah Seelam/AFP/Getty Images ### Shots - Health News ## Countdown To 7 Billion: A Tale Of Two Worlds The United Nations says that the seven-billionth person will soon be born into this world — most likely in India, which is on track to overtake China as the most populous nation in just 16 years. Less-developed regions of the world will be responsible for nearly all the global population growth for the next four decades, while the richer nations' population growth looks to be flat. [...] ## 7 Billion And Counting: Can Earth Handle It? The planet's population stands at nearly 7 billion, and demographers project we may reac",
+            "score": 0.7507356,
+            "published": null
+          },
+          {
+            "idx": 6,
+            "title": "World Population Set to Hit 7 Billion | PBS News Hour Classroom",
+            "url": "https://www.pbs.org/newshour/classroom/daily-videos/2023/08/world-population-set-to-hit-7-billion",
+            "domain": "pbs.org",
+            "snippet": "PBS News Hour Classroom home PBS News Hour Classroom home Daily Video None ## World Population Set to Hit 7 Billion Analysts expect the world population to hit 7 billion any day now, and many are wondering what the future will look like as the number of humans on earth continues to rise rapidly. It took all of human history up to 1804 for the world's population to reach 1 billion. But the next billion came only 100 years later, in 1927. And after that, the rate of growth accelerated, 3 billion in 1959, 4 billion 1974, 5 billion 1987, 6 billion 1999, and now 7 billion. The world is now adding a billion people to its population about every 12 years. [...] It took all of human history up to 1804 for the world's population to reach 1 billion. But the next billion came only 100 years later, in 1927. And after that, the rate of growth accelerated, 3 billion in 1959, 4 billion 1974, 5 billion 1",
+            "score": 0.75036985,
+            "published": null
+          },
+          {
+            "idx": 7,
+            "title": "World Population Clock: 8.3 Billion People (LIVE, October 2026)",
+            "url": "https://worldpopulationclock.net",
+            "domain": "worldpopulationclock.net",
+            "snippet": "The transformation of the global population over the past two centuries has been extraordinary. Around 1800, humanity numbered approximately 1 billion people. Population growth then accelerated rapidly, with the world reaching 2 billion around 1930, 3 billion in 1960, 4 billion in 1974, 5 billion in 1987, 6 billion in 1999, 7 billion in 2011, and 8 billion in 2022. By 2026, the global population stands at approximately 8.3 billion. The speed at which successive billion-person milestones were [...] The fastest historical growth occurred between 1950 and 2000, when improvements in healthcare, sanitation, nutrition and survival coincided with relatively high fertility in many developing regions. The time required to add another 1 billion people fell dramatically, from about 126 years between 1 and 2 billion to roughly 12–14 years between 4 and 7 billion. The world reached 8 billion in 2022 ",
+            "score": 0.626924,
+            "published": null
+          },
+          {
+            "idx": 8,
+            "title": "What is the world population right now?",
+            "url": "https://www.theworldcounts.com/humanity/populations/world-population",
+            "domain": "theworldcounts.com",
+            "snippet": "8,266,245,291 date convention The UN publishes each year on 1 January and on 1 July. The counter starts on 1 January, so it uses the 1 January value. The UN's own summaries quote mid-year figures (8.3 billion for 2026), which run about half a year, 34 million people, ahead. 2,022 eight billion date [...] Nobody counts the world in real time. The counter starts from the United Nations' figure for 1 January 2026, 8,266,245,291 people, and rises in a straight line to its medium projection for 1 January 2030, 8,536,410,062: about 67.5 million more people a year, or two every second. The UN's estimates end on 1 January 2024, so everything since is projection. The number is about 40 million higher than the one this page showed before, which was still running on the UN's 2019 figures. The US Census [...] | World population, UN estimates | 2022 | 7986 million | | World population, UN estimates |",
+            "score": 0.59036595,
+            "published": null
+          }
+        ],
+        "strength": {
+          "score": 49,
+          "label": "Moderate",
+          "factors": {
+            "source_count": 11.7,
+            "source_quality": 11.2,
+            "relevance": 15.8,
+            "grounding": 0.0,
+            "consistency": 10.0
+          },
+          "maximums": {
+            "source_count": 35.0,
+            "source_quality": 25.0,
+            "relevance": 20.0,
+            "grounding": 10.0,
+            "consistency": 10.0
+          }
+        },
+        "model_confidence": "high",
+        "contradictory": false,
+        "outdated": true,
+        "error": null,
+        "error_kind": null
+      },
+      {
+        "claim": {
+          "id": "C09",
+          "text": "India's population is about 1.2 billion people.",
+          "quote": "India's population is about 1.2 billion people.",
+          "page": 1,
+          "category": "statistic",
+          "search_query": "India population 1.2 billion"
+        },
+        "verdict": "INACCURATE",
+        "corrected_fact": "India's population is about 1.48 billion people in 2026 (≈1,476.6 million).",
+        "explanation": "Recent estimates place India's population near 1.48 billion, far above the 1.2 billion figure cited from older data. The claim is therefore outdated.",
+        "citations": [
+          {
+            "source_idx": 6,
+            "stance": "updates",
+            "quote": "The current population of India is 1,481,124,730 as of Wednesday, November 4, 2026... India 2026 population is estimated at 1,476,625,576 people at mid-year.",
+            "quote_matched": false
+          }
+        ],
+        "sources": [
+          {
+            "idx": 1,
+            "title": "[Solved] India's population is 1.2 billion out of the world's - Testbook",
+            "url": "https://testbook.com/question-answer/indias-population-is-1-2-billion-out-of-the-w--6474dd08dc15c27c86b2190f",
+            "domain": "testbook.com",
+            "snippet": "According to the 2011 census, the population of India was 1.21 billion, which is 17.5 percent of the world's population. India is the second most populous",
+            "score": 0.82587075,
+            "published": null
+          },
+          {
+            "idx": 2,
+            "title": "Demographics of India - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Demographics_of_India",
+            "domain": "en.wikipedia.org",
+            "snippet": "Between 1975 and 2010, the population doubled to 1.2 billion. While the population continues to grow, the rate has slowed significantly from 2.3% annually (1972–1983) to roughly 0.89% in 2023. Current projections suggest the population will reach 1.7 billion by 2050. India is highly diverse, hosting thousands of ethnic groups and four major language families: Indo-European, Dravidian, Austroasiatic, and Tibeto-Burman.\\ The country also includes linguistic isolates such as Nihali and Burushaski, and distinct minority communities including Anglo-Indians and Siddi. The human sex ratio has shown an upward trend after decades of decline, reaching 943 females per 1,000 males in 2011 and estimated at 1,060 males per 1,000 females (approx. 944 females/1000 males) in 2023.\\ ## History \\[edit] [...] India is the most populous country in the world, comprising approximately one-sixth of the world po",
+            "score": 0.8213309,
+            "published": null
+          },
+          {
+            "idx": 3,
+            "title": "India's population grows to 1.2 billion - Los Angeles Times",
+            "url": "https://www.latimes.com/world/la-xpm-2011-apr-01-la-fg-india-census-20110401-story.html",
+            "domain": "latimes.com",
+            "snippet": "India's population is now more than 1.2 billion, an increase of 181 million in a decade, putting it on course to surpass China as the world's",
+            "score": 0.7831604,
+            "published": null
+          },
+          {
+            "idx": 4,
+            "title": "Dr Deepessh Divaakaran Dr DD's Post - LinkedIn",
+            "url": "https://www.linkedin.com/posts/deepeshdivakaran_indias-population-is-not-14-billion-it-activity-7416672591974785024-Os7N",
+            "domain": "linkedin.com",
+            "snippet": "India's population is not 1.4 billion. It may be closer to 1.2 billion. In 2019, CAA was introduced.",
+            "score": 0.7177049,
+            "published": null
+          },
+          {
+            "idx": 5,
+            "title": "Key facts about India’s growing population as it surpasses China’s population | Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2023/02/09/key-facts-as-india-surpasses-china-as-the-worlds-most-populous-country",
+            "domain": "pewresearch.org",
+            "snippet": "India’s population has grown by more than 1 billion people since 1950, the year the UN population data begins. The exact size of the country’s population is not easily known, given that India has not conducted a census since 2011, but it is estimated to have more than 1.4 billion people – greater than the entire population of Europe (744 million) or the Americas (1.04 billion). China, too, has more than 1.4 billion people, but while China’s population is declining, India’s continues to grow. [...] Under the UN’s “medium variant” projection, a middle-of-the-road estimate, India’s population will surpass 1.5 billion people by the end of this decade and will continue to slowly increase until 2064, when it will peak at 1.7 billion people. In the UN’s “high variant” scenario – in which the total fertility rate in India is projected to be 0.5 births per woman above that of the medium variant s",
+            "score": 0.69471705,
+            "published": null
+          },
+          {
+            "idx": 6,
+            "title": "India Population (2026) - Worldometer",
+            "url": "https://www.worldometers.info/world-population/india-population",
+            "domain": "worldometers.info",
+            "snippet": "The current population of India is 1,481,124,730 as of Wednesday, November 4, 2026, based on Worldometer's elaboration of the latest United Nations data1. India 2026 population is estimated at 1,476,625,576 people at mid-year. India population is equivalent to 17.8% of the total world population . India ranks number 1 in the list of countries and other entities by population . The population density in India is 497 per km² (1,286 people per mi²). [...] | Year | Population | Yearly % Change | Yearly Change | Migrants (net) | Median Age | Fertility Rate | Density (P/km²) | Urban Pop % | Urban Population | Country's Share of World Pop | World Population | India Global Rank | --- --- --- --- --- --- | 2026 | 1,476,625,576 | +0.87% | 12,760,051 | −440,456 | 29.2 | 1.93 | 497 | 36.0% | 531,562,167 | 17.8% | 8,300,678,396 | 1 | [...] | 2025 | 1,463,865,525 | +0.89% | 12,929,734 | −495,753 | 28.",
+            "score": 0.6570985,
+            "published": null
+          },
+          {
+            "idx": 7,
+            "title": "Is India's Population Heading Toward 2 Billion? - Population Reference Bureau",
+            "url": "https://www.prb.org/resource/is-indias-population-heading-toward-2-billion",
+            "domain": "prb.org",
+            "snippet": "India passed the 1 billion population benchmark in 2000, and stands at 1.1 billion in 2007. The government has long been concerned about population growth outpacing economic growth, and India was the first country to adopt a policy to slow population growth. Since the policy was first stated in 1952, the country’s total fertility rate (TFR) has declined from about six children per woman to about three, but fertility levels vary greatly throughout India’s vast territory. ## Fertility Decline in the South [...] Skip to content Will India be the first—possibly the only—country ever to have 2 billion people? The Population Reference Bureau tackled this question in a new projection series release this month. The answer depends on the course of events in each of India 35 states and Union territories. Under the two scenarios prepared for this study, India’s population would near the 1.8 billion",
+            "score": 0.6423203,
+            "published": null
+          },
+          {
+            "idx": 8,
+            "title": "India population 2026| Statista",
+            "url": "https://www.statista.com/statistics/263766/total-population-of-india",
+            "domain": "statista.com",
+            "snippet": "In 2026, the population of India was approximately 1.48 billion, compared with 687.4 million in 1980. Total population in India [...] | Characteristic | Estimated population in millions | --- | | 2031\\ | 1,536.5 | | 2030\\ | 1,525.1 | | 2029\\ | 1,513.4 | | 2028\\ | 1,501.4 | | 2027\\ | 1,489.2 | | 2026\\ | 1,476.6 | | 2025 | 1,463.9 | | 2024 | 1,450.9 | | 2023 | 1,438.1 | | 2022 | 1,425.4 | | 2021 | 1,414.2 | | 2020 | 1,402.6 | | 2019 | 1,389 | | 2018 | 1,374.7 | | 2017 | 1,359.7 | | 2016 | 1,343.9 | | 2015 | 1,328 | | 2014 | 1,312.3 | | 2013 | 1,295.8 | | 2012 | 1,278.7 | | 2011 | 1,261.2 | | 2010 | 1,243.5 | [...] | 2010 | 1,243.5 | | 2009 | 1,225.5 | | 2008 | 1,207.9 | | 2007 | 1,190.7 | | 2006 | 1,172.9 | | 2005 | 1,154.7 | | 2004 | 1,136 | | 2003 | 1,116.8 | | 2002 | 1,097.6 | | 2001 | 1,077.9 | | 2000 | 1,057.9 | | 1999 | 1,038.2 | | 1998 | 1,018.7 | | 1997 | 999.1 | | 1996 | 979.7 | |",
+            "score": 0.6406359,
+            "published": null
+          }
+        ],
+        "strength": {
+          "score": 46,
+          "label": "Moderate",
+          "factors": {
+            "source_count": 11.7,
+            "source_quality": 11.2,
+            "relevance": 13.1,
+            "grounding": 0.0,
+            "consistency": 10.0
+          },
+          "maximums": {
+            "source_count": 35.0,
+            "source_quality": 25.0,
+            "relevance": 20.0,
+            "grounding": 10.0,
+            "consistency": 10.0
+          }
+        },
+        "model_confidence": "medium",
+        "contradictory": false,
+        "outdated": true,
+        "error": null,
+        "error_kind": null
+      },
+      {
+        "claim": {
+          "id": "C10",
+          "text": "The concentration of carbon dioxide in Earth's atmosphere is about 400 parts per million.",
+          "quote": "The concentration of carbon dioxide in Earth's atmosphere is about 400 parts per million.",
+          "page": 1,
+          "category": "statistic",
+          "search_query": "atmospheric CO2 concentration ppm"
+        },
+        "verdict": "INACCURATE",
+        "corrected_fact": "In 2026 the concentration of carbon dioxide in Earth's atmosphere reached about 432 ppm (≈0.0432%).",
+        "explanation": "Recent measurements show CO₂ levels far above 400 ppm, with 432 ppm recorded in 2026, making the claim outdated.",
+        "citations": [
+          {
+            "source_idx": 1,
+            "stance": "updates",
+            "quote": "In 2026, the concentration of carbon dioxide in the atmosphere reached 432 ppm",
+            "quote_matched": true
+          },
+          {
+            "source_idx": 7,
+            "stance": "updates",
+            "quote": "atmospheric carbon dioxide (CO₂) concentrations ... reached 432 ppm in May 2026",
+            "quote_matched": false
+          }
+        ],
+        "sources": [
+          {
+            "idx": 1,
+            "title": "Carbon dioxide in the atmosphere of Earth - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Carbon_dioxide_in_the_atmosphere_of_Earth",
+            "domain": "en.wikipedia.org",
+            "snippet": "Atmospheric constituent and greenhouse gas . The rise in CO2 over that time period is clearly visible. The concentration is expressed as μmole per mole, or ppm. In the atmosphere of Earth, carbon dioxide (CO2) is a trace gas that plays an integral part in the greenhouse effect, carbon cycle, photosynthesis, and oceanic carbon cycle. It is one of three main greenhouse gases in the atmosphere of Earth. In 2026, the concentration of carbon dioxide in the atmosphere reached 432 ppm or 0.0432% (on a molar basis), representing a mass of 3380 gigatonnes. This is an increase of 54% since the start of the Industrial Revolution, up from 280 ppm during the 10,000 years prior to the mid-18th century. The increase is due to human activity. [...] . Figures are published monthly by the National Oceanic & Atmospheric Administration (NOAA). The value had been about 280 ppm during the 10,000 years up to t",
+            "score": 0.83682144,
+            "published": null
+          },
+          {
+            "idx": 2,
+            "title": "Climate change: atmospheric carbon dioxide | NOAA Climate.gov",
+            "url": "https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide",
+            "domain": "climate.gov",
+            "snippet": "## Carbon dioxide levels in 2024 Based on the annual analysis from NOAA’s Global Monitoring Lab, global average atmospheric carbon dioxide was 422.8 parts per million (“ppm,” for short) in 2024, a new record high. The increase during 2024 was 3.75 ppm—the largest one-year increase on record. At Mauna Loa Observatory in Hawaii (graph above), where the modern carbon dioxide record began in 1958, the annual average carbon dioxide in 2024 was 424.61 ppm, also a new record. [...] # Climate change: atmospheric carbon dioxide The modern record of atmospheric carbon dioxide levels began with observations recorded at Mauna Loa Observatory in Hawaii. This graph shows the station's monthly average carbon dioxide measurements since 1958 in parts per million (ppm). The seasonal cycle of highs and lows (small peaks and valleys) is driven by Northern Hemisphere summer vegetation growth, which reduces a",
+            "score": 0.8204695,
+            "published": null
+          },
+          {
+            "idx": 3,
+            "title": "Atmospheric CO2 ppm by year 1959-2025 | Statista",
+            "url": "https://www.statista.com/statistics/1091926/atmospheric-concentration-of-co2-historic",
+            "domain": "statista.com",
+            "snippet": "300 325 350 375 400 425 450 475 End of interactive chart. Average annual atmospheric levels of carbon dioxide (CO₂) reached a record high of 427.49 parts per million (ppm) in 2025. Monthly atmospheric CO₂ concentrations peaked that year in June, at 426.91 ppm. ## Human activities have caused CO₂ concentrations to soar Annual CO₂ concentrations consistently averaged around 280 ppm before the industrial revolution began, according to the National Oceanic and Atmospheric Administration (NOAA). However, the mass burning of fossil fuels, and deforestation over the past two centuries has released trillions of tons of CO₂ into the atmosphere. This has caused atmospheric CO₂ levels to climb more than 50 percent above pre-industrial levels. [...] Skip to main content Language & Database English German Contact sales # Average carbon dioxide (CO₂) levels in the atmosphere worldwide from 1959 to 202",
+            "score": 0.7833262,
+            "published": null
+          },
+          {
+            "idx": 4,
+            "title": "What is the ideal level of carbon dioxide in the atmosphere for human life? | MIT Climate Portal",
+            "url": "https://climate.mit.edu/ask-mit/what-ideal-level-carbon-dioxide-atmosphere-human-life",
+            "domain": "climate.mit.edu",
+            "snippet": "According to NASA, the amount of carbon dioxide (CO2) in Earth’s atmosphere was about 430 parts per million (ppm) in June 2025.1 This level has been rising for 200 years—a worrying sign for the planet, since CO2 is a powerful heat-trapping greenhouse gas. Climate experts warn that humanity must drastically lower its CO2 emissions to avoid the most dangerous risks of climate change. But if we could choose a different level of CO2 in the air, what number would we pick? [...] Climate MIT Ask MIT Climate ###### Have a question? Ask us! Ask MIT Climate # What is the ideal level of carbon dioxide in the atmosphere for human life? ###### Atmospheric CO2 levels of between 280 and 350 parts per million created the climate that let humanity build and feed the modern world. The farther we get from those levels, the more we run the risk of disturbing that balance. Updated August 8, 2025 [...] The fi",
+            "score": 0.7791538,
+            "published": null
+          },
+          {
+            "idx": 5,
+            "title": "Atmospheric CO2 Concentration | WESR - Climate Change",
+            "url": "https://wesr-climate.unepgrid.ch/climate/essential-climate-variables-ecv/atmospheric-co2-concentration",
+            "domain": "wesr-climate.unepgrid.ch",
+            "snippet": "UNEP Home # Atmospheric CO2 Concentration Observed concentrations of carbon dioxide (CO2) in the atmosphere have exceeded 416 parts per million (ppm) threshold at the end of 2021. This is a wakeup call about the constantly rising levels of this greenhouse gas, which is released into the atmosphere by fossil fuel burning and other human activities and is the main driver of climate change. Carbon dioxide remains in the atmosphere for thousands of years, trapping heat and causing our planet to warm further, impacting on all aspects of life on earth. [...] The first chart displays a sharp increase in CO2 concentrations of more than 100 ppm since March 1958. The curve shows expected seasonal fluctuations: the northern hemisphere has a greater land mass than the southern hemisphere and more vegetation-absorbing CO2 during the summer. Global CO2 concentrations peak in May at the end of the nort",
+            "score": 0.7767923,
+            "published": null
+          },
+          {
+            "idx": 6,
+            "title": "Trends in CO2 - NOAA Global Monitoring Laboratory",
+            "url": "https://gml.noaa.gov/ccgg/trends",
+            "domain": "gml.noaa.gov",
+            "snippet": "### Monthly Average Mauna Loa CO2 | | | --- | | September 2026: | 426.07 ppm | | September 2025: | 424.37 ppm | Last updated: Oct 09, 2026 CO2 Trend for Mauna Loa PNG Version PDF Version Mauna Loa CO2 PNG Version PDF Version The graphs show monthly mean carbon dioxide measured at Mauna Loa Observatory, Hawaii. The carbon dioxide data on Mauna Loa constitute the longest record of direct measurements of CO2 in the atmosphere. They were started by C. David Keeling of the Scripps Institution of Oceanography in March of 1958 at a facility of the National Oceanic and Atmospheric Administration [Keeling, 1976]. NOAA started its own CO2 measurements in May of 1974, and they have run in parallel with those made by Scripps since then [Thoning, 1989].",
+            "score": 0.7444706,
+            "published": null
+          },
+          {
+            "idx": 7,
+            "title": "1517. Atmospheric CO₂ Concentration Reaches 432 ppm, Setting a New Record High | Japan International Research Center for Agricultural Sciences | JIRCAS",
+            "url": "https://www.jircas.go.jp/en/program/proc/blog/20260615",
+            "domain": "jircas.go.jp",
+            "snippet": "Scientists at the Scripps Institution of Oceanography at the University of California San Diego have reported that atmospheric carbon dioxide (CO₂) concentrations at the Mauna Loa Observatory reached 432 ppm in May 2026, marking a new record high. This represents an increase of 1.8 ppm from 430.2 ppm in May 2025, continuing the long-term upward trend. Independent measurements by the National Oceanic and Atmospheric Administration (NOAA) also reported a consistent value of 432.3 ppm, confirming [...] Data from Mauna Loa, together with global observations, are incorporated into NOAA’s Global Greenhouse Gas Reference Network, providing a critical foundation for climate research and policymaking worldwide. These latest findings underscore that atmospheric CO₂ concentrations continue to rise unabated, suggesting that delays in mitigation efforts are increasing long-term climate risks. Continu",
+            "score": 0.6945099,
+            "published": null
+          },
+          {
+            "idx": 8,
+            "title": "Monthly atmospheric CO2 concentration 2026 | Statista",
+            "url": "https://www.statista.com/statistics/1091999/atmospheric-concentration-of-co2-historic",
+            "domain": "statista.com",
+            "snippet": "Global atmospheric concentration of carbon dioxide 1990-2026, by month Last update: May 5, 2026 Region: Worldwide Survey time period: January 1990 to February 2026 Monthly mean atmospheric carbon dioxide (CO₂) concentrations reached a record high of 430.5 parts per million (ppm) in May 2025. This represents an increase of roughly 22 percent compared with average CO₂ levels recorded in January 1990. In 2025, global average annual CO₂ concentrations reached a record high of 427.35 ppm. [...] JavaScript is required for full site navigation. Statista Data Insights by industry Popular statistics Popular topics Popular reports Consumer Insights products Market Insights API & MCP AI assistants Services & solutions By function By use case By industry Statista+ services Get started & learn Plans & access Language & Database # Average monthly carbon dioxide (CO₂) levels in the atmosphere worldwide",
+            "score": 0.61901075,
+            "published": null
+          }
+        ],
+        "strength": {
+          "score": 68,
+          "label": "Moderate",
+          "factors": {
+            "source_count": 23.3,
+            "source_quality": 14.4,
+            "relevance": 15.3,
+            "grounding": 5.0,
+            "consistency": 10.0
+          },
+          "maximums": {
+            "source_count": 35.0,
+            "source_quality": 25.0,
+            "relevance": 20.0,
+            "grounding": 10.0,
+            "consistency": 10.0
+          }
+        },
+        "model_confidence": "high",
+        "contradictory": false,
+        "outdated": true,
+        "error": null,
+        "error_kind": null
+      },
+      {
+        "claim": {
+          "id": "C11",
+          "text": "Pluto is classified as the ninth planet of the solar system.",
+          "quote": "Pluto is classified as the ninth planet of the solar system.",
+          "page": 1,
+          "category": "other_fact",
+          "search_query": "Pluto classification ninth planet"
+        },
+        "verdict": "FALSE",
+        "corrected_fact": "Pluto is classified as a dwarf planet, not the ninth planet, after the IAU redefined the term in 2006.",
+        "explanation": "All evidence states Pluto was reclassified as a dwarf planet in 2006, so it is no longer the ninth planet.",
+        "citations": [
+          {
+            "source_idx": 1,
+            "stance": "contradicts",
+            "quote": "Pluto was once our solar system's ninth planet, but has been reclassified as a dwarf planet.",
+            "quote_matched": true
+          },
+          {
+            "source_idx": 2,
+            "stance": "contradicts",
+            "quote": "In 2006, the rules changed! ... its status is a dwarf planet.",
+            "quote_matched": false
+          }
+        ],
+        "sources": [
+          {
+            "idx": 1,
+            "title": "Pluto",
+            "url": "https://science.nasa.gov/dwarf-planets/pluto",
+            "domain": "science.nasa.gov",
+            "snippet": "# Pluto Pluto was once our solar system's ninth planet, but has been reclassified as a dwarf planet. It's located in the Kuiper Belt. ## Pluto Facts Pluto is a dwarf planet located in a distant region of our solar system beyond Neptune known as the Kuiper Belt. Pluto was long considered our ninth planet, but the International Astronomical Union reclassified Pluto as a dwarf planet in 2006. NASA's New Horizons was the first spacecraft to explore Pluto up close, flying by in 2015. ## Exploring Pluto NASA's New Horizons was the first and, so far, the only mission to explore Pluto. New Horizons also was the first mission to explore the solar system's recently discovered \"third zone,\" the region beyond the giant planets called the Kuiper Belt. ## Moons of Pluto Pluto has five moons.",
+            "score": 0.8388118,
+            "published": null
+          },
+          {
+            "idx": 2,
+            "title": "Canadian Space Agency on Facebook: \"Pluto was the ninth planet... until it wasn’t! Discovered in 1930, Pluto was long celebrated as our …\"",
+            "url": "https://www.facebook.com/CanadianSpaceAgency/videos/pluto-was-the-ninth-planet-until-it-wasnt-discovered-in-1930-pluto-was-long-cele/1349936780374530",
+            "domain": "facebook.com",
+            "snippet": "# Canadian Space Agency on Facebook: \"Pluto was the ninth planet... until it wasn’t! Discovered in 1930, Pluto was long celebrated as our …\" Pluto was the ninth planet... until it wasn’t! Discovered in 1930, Pluto was long celebrated as our solar system’s ninth planet. But in 2006, the rules changed! To be classified as a planet, a celestial body must orbit the Sun, be nearly round and clear its neighborhood of objects of similar size, except for its moons. While Pluto is round and orbits the Sun, the region around its orbit is filled with thousands of similar sized planetoids (a small celestial body that orbits the Sun and resembles a planet). Because of this, its status is a dwarf planet. Though it lost its planetary title, Pluto remains a fascinating world in our solar system! 🌌 [...] - Michael Bonar: Planets are \"Firm\"🤔 right? - Kimberly Heath: Literally wearing my Pluto shirt today ",
+            "score": 0.81888163,
+            "published": null
+          },
+          {
+            "idx": 3,
+            "title": "PLUTO Definition & Meaning | Dictionary.com",
+            "url": "https://www.dictionary.com/browse/pluto",
+            "domain": "dictionary.com",
+            "snippet": "Pluto Scientific / plo̅o̅′tō / 1. A dwarf planet that until 2006 was classified as the ninth planet in the Solar System. Pluto was not discovered until 1930, when Clyde Tombaugh noticed it while searching for an unknown planet thought to influence Uranus's orbit. Pluto's surface is covered with frozen methane and other ices, and its extremely thin atmosphere consists primarily of methane and nitrogen. Between 1979 and 1999 Pluto crossed inside Neptune's orbit. Pluto has three moons: Charon (discovered in 1978) and Hydra and Nix (both discovered in 2005). 2. See Table at solar system Pluto 1 Cultural 1. The Roman name of Hades, the Greek and Roman god of the underworld and ruler of the dead. Pluto 2 Cultural [...] # Pluto American [ploo-toh] / ˈplu toʊ / ## noun 1. Classical Mythology. a name given to Hades, under which he is identified by the Romans with Orcus. 2. Astronomy. a dwarf plan",
+            "score": 0.8115267,
+            "published": null
+          },
+          {
+            "idx": 4,
+            "title": "Once the Solar System's Ninth Planet, Pluto Was Reclassified 20 Years Ago. Here's Why Planetary Scientists and the Public Alike Love the Small, Icy Body",
+            "url": "https://www.smithsonianmag.com/science-nature/once-the-solar-systems-ninth-planet-pluto-was-reclassified-20-years-ago-heres-why-planetary-scientists-and-the-public-alike-love-the-small-icy-body-180989383",
+            "domain": "smithsonianmag.com",
+            "snippet": "Instead of the solar system’s ninth planet, Pluto was reclassified as a “dwarf planet,” separate from the rest. “It was agreed that ‘planets’ and ‘dwarf planets’ are two distinct classes of objects,” the IAU noted at the time. dwarf planets graphic shows all five dwarf planets/ The International Astronomical Union currently recognizes five dwarf planets: Pluto, Ceres, Eris, Makemake and Haumea. NASA / JPL-Caltech The union members at the general assembly concluded that a planet is “a celestial body that (a) is in orbit around the sun, (b) has sufficient mass for its self-gravity to overcome rigid body forces so that it assumes a hydrostatic equilibrium (nearly round) shape and (c) has cleared the neighborhood around its orbit.” [...] “Flagstaff is Plutotown, USA,” he says. Now, 20 years after the International Astronomical Union (IAU) voted, on August 24, 2006, to remove Pluto from its n",
+            "score": 0.7858021,
+            "published": null
+          },
+          {
+            "idx": 5,
+            "title": "Pluto & Dwarf Planets",
+            "url": "https://science.nasa.gov/dwarf-planets",
+            "domain": "science.nasa.gov",
+            "snippet": "So far, the IAU has only recognized five dwarf planets. In order of distance from the Sun they are: Ceres, Pluto, Haumea, Makemake, and Eris. The IAU says there may be many more dwarf planets — perhaps more than a hundred — waiting to be discovered. ## DWARF PLANETS ## Pluto: The Star of Dwarf Planets Pluto is by far the most famous dwarf planet. Discovered by Clyde Tombaugh in 1930, Pluto was long considered our solar system's ninth planet. But after other astronomers found similar intriguing worlds deeper in the distant Kuiper Belt — the IAU reclassified Pluto as a dwarf planet in 2006. There was widespread outrage on behalf of the demoted planet. Textbooks were updated, and the internet spawned memes with Pluto going through a range of emotions, from anger to loneliness.",
+            "score": 0.7826625,
+            "published": null
+          },
+          {
+            "idx": 6,
+            "title": "Pluto - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Pluto",
+            "domain": "en.wikipedia.org",
+            "snippet": "Pluto was discovered in 1930 by Clyde W. Tombaugh, making it the first known object in the Kuiper belt. It was immediately hailed as the ninth planet, but its planetary status was questioned when it was found to be much smaller than expected. These doubts increased following the discovery of additional objects in the Kuiper belt starting in the 1990s, particularly the more massive scattered disk object Eris in 2005. In 2006, the International Astronomical Union (IAU) formally redefined the term planet to exclude dwarf planets such as Pluto. Many planetary astronomers, however, continue to consider Pluto and other dwarf planets to be planets. ## History ### Discovery [...] 065. ↑ \"Is Pluto a giant comet?\". Central Bureau for Astronomical Telegrams. 1999. Retrieved June 27, 2025. Marsden had first suggested in 1980 that \"we should \"\\[drop] the appellation 'ninth planet' and \\[classify] Plu",
+            "score": 0.77509457,
+            "published": null
+          },
+          {
+            "idx": 7,
+            "title": "Planet 9 or Planet X? Scientists Disagree on a Name for Missing World - Business Insider",
+            "url": "http://www.businessinsider.com/planet-nine-x-name-argument-2018-6",
+            "domain": "businessinsider.com",
+            "snippet": "That ostensible world is most often called Planet Nine, and it was formally proposed in 2016 — a decade after the International Astronomical Union decided to classify Pluto as a dwarf planet rather than counting it as the ninth planet in our solar system. But as we learned by asking scientists about the evidence surrounding Planet Nine, the name has its critics. And it all comes down to where you fall in the Pluto debate. [...] Stern is an ardent defender of Pluto's planethood. In 2015, shortly after New Horizons flew past Pluto, he told Business Insider that the world's demotion from its former status as a planet was \"bulls---.\" In 2017, he and five other researchers asked the IAU to change its definition of a planet to mean any mostly round object that wasn't a star. He also recently authored a perspective on the issue in the Washington Post. ### Want more Business Insider in your news",
+            "score": 0.40827677,
+            "published": null
+          },
+          {
+            "idx": 8,
+            "title": "Planet 9 or Planet X? Scientists Disagree on a Name for Missing World - Business Insider",
+            "url": "https://www.businessinsider.com/planet-nine-x-name-argument-2018-6",
+            "domain": "businessinsider.com",
+            "snippet": "That ostensible world is most often called Planet Nine, and it was formally proposed in 2016 — a decade after the International Astronomical Union decided to classify Pluto as a dwarf planet rather than counting it as the ninth planet in our solar system. But as we learned by asking scientists about the evidence surrounding Planet Nine, the name has its critics. And it all comes down to where you fall in the Pluto debate. [...] Stern is an ardent defender of Pluto's planethood. In 2015, shortly after New Horizons flew past Pluto, he told Business Insider that the world's demotion from its former status as a planet was \"bulls---.\" In 2017, he and five other researchers asked the IAU to change its definition of a planet to mean any mostly round object that wasn't a star. He also recently authored a perspective on the issue in the Washington Post. ### Want more Business Insider in your news",
+            "score": 0.40827677,
+            "published": null
+          }
+        ],
+        "strength": {
+          "score": 73,
+          "label": "Strong",
+          "factors": {
+            "source_count": 23.3,
+            "source_quality": 18.1,
+            "relevance": 16.6,
+            "grounding": 5.0,
+            "consistency": 10.0
+          },
+          "maximums": {
+            "source_count": 35.0,
+            "source_quality": 25.0,
+            "relevance": 20.0,
+            "grounding": 10.0,
+            "consistency": 10.0
+          }
+        },
+        "model_confidence": "high",
+        "contradictory": false,
+        "outdated": false,
+        "error": null,
+        "error_kind": null
+      },
+      {
+        "claim": {
+          "id": "C12",
+          "text": "The Pacific Ocean is the largest ocean on Earth.",
+          "quote": "The Pacific Ocean is the largest ocean on Earth.",
+          "page": 1,
+          "category": "other_fact",
+          "search_query": "largest ocean Pacific Ocean"
+        },
+        "verdict": "VERIFIED",
+        "corrected_fact": null,
+        "explanation": "All provided sources state that the Pacific Ocean is the largest ocean on Earth, confirming the claim.",
+        "citations": [
+          {
+            "source_idx": 1,
+            "stance": "supports",
+            "quote": "The Pacific Ocean is the world’s largest ocean, covering an area of 182 million square kilometers...",
+            "quote_matched": true
+          }
+        ],
+        "sources": [
+          {
+            "idx": 1,
+            "title": "Pacific Ocean | Environmental Sciences | Research Starters | EBSCOhost",
+            "url": "https://www.ebsco.com/research-starters/environmental-sciences/pacific-ocean",
+            "domain": "ebsco.com",
+            "snippet": "Published in: 2023 2 of 4 3 of 4 4 of 4 ## Full article The Pacific Ocean is the world’s largest ocean, covering an area of 182 million square kilometers. It is twice the size of the next largest ocean, the Atlantic. The Pacific Ocean covers approximately one-third of Earth’s surface and is larger than Earth’s entire landmass area. ### Location of the Pacific Ocean The Pacific Ocean, with a mean depth of 4,255 meters and a maximum depth of 10,970 meters, extends from its southern extreme in Antarctica some 15,550 kilometers north to the Bering Strait, which separates North America from Asia. Its east-west area extends almost 19,440 kilometers from the western coast of Colombia in South America to Asia’s Malay Peninsula. [...] ## Full article The Pacific Ocean is the world’s largest ocean, covering an area of 182 million square kilometers. It is twice the size of the next largest ocean, t",
+            "score": 0.76838577,
+            "published": null
+          },
+          {
+            "idx": 2,
+            "title": "Know Pacific Ocean - Learn Geography, History & Strategic Importance",
+            "url": "https://www.youtube.com/watch?v=Cl39QdyPYHE",
+            "domain": "youtube.com",
+            "snippet": "The Pacific Ocean is the largest and deepest ocean on Earth. It covers more than 30% of the planet's surface and, in fact, the Pacific is even larger than the combined landmass covering the entire Earth. Not only is the Pacific huge, but it is also the deepest. The Mariana Trench, located in the Pacific Ocean, is the deepest trench known on Earth and has several deep points. Furthermore, the Pacific is also considered one of the most dangerous places on the planet, around 90% of the world's earthquakes and approx 75% of the world's volcanoes occur within this region. Additionally, the Pacific Ocean is home to most of the islands in the world. Some of these islands serve as strategic locations for military bases. These bases often play a critical role in monitoring and controlling major [...] ### Transcript [0:01] the Pacific Ocean is the largest and deepest ocean on earth it covers more ",
+            "score": 0.70395666,
+            "published": null
+          },
+          {
+            "idx": 3,
+            "title": "The Pacific Ocean—facts and information | National Geographic",
+            "url": "https://www.nationalgeographic.com/environment/article/pacific-ocean",
+            "domain": "nationalgeographic.com",
+            "snippet": "A California sea lion hunts for fish on a kelp paddy at Cortes Bank, a seamount off San Diego. Photograph by Brian Skerry, Nat Geo Image Collection ENVIRONMENT REFERENCE # The Pacific Ocean, explained The largest ocean on Earth is filled with mysteries, but also subject to great pressures like climate change, plastic pollution, and overfishing. BySarah Gibbens Published March 4, 2019 •8 min read The Pacific Ocean is the largest and deepest ocean on Earth. It spans 60 million square miles from California to China, and in certain regions extends tens of thousands of feet below the surface of the water. To get a sense of just how immense the Pacific Ocean is, you could put all of Earth's landmasses together, and the Pacific would still be larger.",
+            "score": 0.70222384,
+            "published": null
+          },
+          {
+            "idx": 4,
+            "title": "Pacific Ocean",
+            "url": "https://www.worldatlas.com/oceans/pacific-ocean.html",
+            "domain": "worldatlas.com",
+            "snippet": "Pacific Ocean # Pacific Ocean The Pacific Ocean is by far the world’s largest and deepest ocean. It spans over 63 million square miles from China to California, and in some areas, extends thousands of feet below the water surface. The ocean basin covers about 32% of the Earth’s total surface area and 46% of the water surface. To understand how big the Pacific Ocean is, all the world’s landmasses could fit into the ocean, with plenty of space left. The ocean extends from the Arctic region in the north to the Antarctic region in the south. It is sandwiched between South and North America to the east and Australia and Asia to the west. ## Contents: Origin Of The Name Geography Islands Climate Brief History Marine Life Environmental Concerns ## Origin Of The Name [...] Map showing the location of the Pacific Ocean. The Pacific Ocean covers approximately 63.8 million square miles, about 5.8 m",
+            "score": 0.6905591,
+            "published": null
+          },
+          {
+            "idx": 5,
+            "title": "The Oceans Of The World By Size",
+            "url": "https://www.worldatlas.com/oceans/the-oceans-of-the-world-by-size-55849.html",
+            "domain": "worldatlas.com",
+            "snippet": "| Rank | Ocean | Area (km² / sq mi) | Share | Volume (km³ / cu mi) | Avg. depth (m / ft) | Coastline (km / mi) | --- --- --- | 1 | Pacific Ocean | 168,723,000 / 65,144,000 | 46.6% | 669,880,000 / 160,716,000 | 3,970 / 13,025 | 135,663 / 84,300 | | 2 | Atlantic Ocean | 85,133,000 / 32,870,000 | 23.5% | 310,410,900 / 74,463,000 | 3,646 / 11,962 | 111,866 / 69,500 | | 3 | Indian Ocean | 70,560,000 / 27,243,000 | 19.5% | 264,000,000 / 63,337,000 | 3,741 / 12,274 | 66,526 / 41,300 | | 4 | Southern Ocean | 21,960,000 / 8,479,000 | 6.1% | 71,800,000 / 17,226,000 | 3,270 / 10,728 | 17,968 / 11,200 | | 5 | Arctic Ocean | 15,558,000 / 6,007,000 | 4.3% | 18,750,000 / 4,499,000 | 1,205 / 3,953 | 45,389 / 28,200 | Now Try The Driest Places On EarthThe 10 Largest Deserts In The World [...] At 168,723,000 square kilometers (about 65,144,000 square miles), the Pacific is the undisputed heavyweight of th",
+            "score": 0.68899184,
+            "published": null
+          },
+          {
+            "idx": 6,
+            "title": "Pacific Ocean | Depth, Temperature, Animals, Location, Map, & Facts | Britannica",
+            "url": "https://www.britannica.com/place/Pacific-Ocean",
+            "domain": "britannica.com",
+            "snippet": "Of the three major oceans, the Pacific is by far the largest, occupying about one-third of the surface of the globe. Its area, excluding the South China Sea, encompasses about 62.5 million square miles (161.76 million square km). It has double the area and more than double the water volume of the Atlantic Ocean—the next largest division of the hydrosphere—and its area more than exceeds that of the whole land surface of the globe. The Pacific Ocean stretches from the Bering Strait to 60° S latitude through more than 120° of latitude, nearly 9,000 miles (about 14,500 km). Its greatest latitudinal extent measures some 12,000 miles (about 19,000 km) along latitude 5° N, between the coasts of Colombia in South America and the Malay Peninsula in Asia. The mean depth of the Pacific (excluding [...] Peninsula in Asia. The mean depth of the Pacific (excluding adjacent seas) is 14,040 feet (4,280 ",
+            "score": 0.68637,
+            "published": null
+          },
+          {
+            "idx": 7,
+            "title": "How big is the Pacific Ocean? - NOAA Ocean Exploration",
+            "url": "https://oceanexplorer.noaa.gov/ocean-fact/pacific-size",
+            "domain": "oceanexplorer.noaa.gov",
+            "snippet": "LIVE VIDEO: The 2026 American Samoa ROV + Mapping Exploration expedition is underway. Watch live dives to explore deep-sea habitats of American Samoa. Back to Ocean Facts Ocean Fact # How big is the Pacific Ocean? The Pacific Ocean is the largest and deepest ocean basin on Earth, covering more than 155 million square kilometers (60 million square miles) and averaging a depth of 4,000 meters (13,000 feet). [...] Covering more than 30 percent of the Earth’s surface, the Pacific Ocean is the largest water mass on the planet. With a surface area of more than 155 million square kilometers (60 million square miles), this ocean basin is larger than the landmass of all the continents combined. Additionally, it contains almost twice as much water as the world’s second largest body of water, the Atlantic Ocean. [...] The Pacific is also our planet’s deepest water body, with an average depth of app",
+            "score": 0.4449868,
+            "published": null
+          },
+          {
+            "idx": 8,
+            "title": "Pacific Ocean Facts: The Largest Ocean on Earth",
+            "url": "https://oceanblueproject.org/pacific-ocean-facts",
+            "domain": "oceanblueproject.org",
+            "snippet": "🌍 Size: About 63 million square miles (165 million square kilometers) 🌊 Depth: Average depth of about 13,000 feet (4,000 meters) ⛰️ Deepest Point: Mariana Trench (about 36,000 feet / 11,000 meters) 🌐 Coverage: Covers more than 30% of Earth’s surface 🐋 Wildlife: Home to whales, sharks, coral reefs, and thousands of marine species The Pacific Ocean is not only the largest of all main oceans of Earth, but also the most geologically active. [...] The Pacific Ocean is the largest and deepest of the five oceans of the world, covering more area than all the land on Earth combined. Stretching from Asia and Australia to North and South America, it plays a crucial role in Earth’s climate, ecosystems, and global water systems. As one of the main oceans of Earth, the Pacific Ocean is home to incredible biodiversity, powerful natural forces, and some of the most fascinating geographic features on the",
+            "score": 0.36116472,
+            "published": null
+          }
+        ],
+        "strength": {
+          "score": 58,
+          "label": "Moderate",
+          "factors": {
+            "source_count": 11.7,
+            "source_quality": 11.2,
+            "relevance": 15.4,
+            "grounding": 10.0,
+            "consistency": 10.0
+          },
+          "maximums": {
+            "source_count": 35.0,
+            "source_quality": 25.0,
+            "relevance": 20.0,
+            "grounding": 10.0,
+            "consistency": 10.0
+          }
+        },
+        "model_confidence": "high",
+        "contradictory": false,
+        "outdated": false,
+        "error": null,
+        "error_kind": null
+      },
+      {
+        "claim": {
+          "id": "C13",
+          "text": "Acme Industries recorded an internal customer churn rate of 4.1% in its 2023 fiscal year.",
+          "quote": "Acme Industries recorded an internal customer churn rate of 4.1% in its 2023 fiscal year.",
+          "page": 1,
+          "category": "statistic",
+          "search_query": "Acme Industries internal customer churn rate 2023"
+        },
+        "verdict": "INSUFFICIENT EVIDENCE",
+        "corrected_fact": null,
+        "explanation": "None of the provided sources mention Acme Industries' customer churn rate for fiscal year 2023, so the claim cannot be verified or refuted.",
+        "citations": [],
+        "sources": [
+          {
+            "idx": 1,
+            "title": "Churn rate benchmarks: SaaS, media, retail & more industries | Recurly",
+            "url": "https://recurly.com/research/churn-rate-benchmarks",
+            "domain": "recurly.com",
+            "snippet": "## 2.34% Average voluntary churn rate Across all industries ## 1.25% Average involuntary churn rate Across all industries ## Churn by industry The following are median annual churn rates from Recurly network data (July 2026), with voluntary and involuntary breakdowns for each vertical. ## How to minimize business churn rates: Voluntary vs. involuntary churn [...] This page draws on Recurly's network of subscription businesses to give you benchmarks across industries, revenue tiers, and churn types. All figures are updated with July 2026 data. ## Benchmarking: How does your business churn rate compare? Your churn rate is a critical indicator of the health of your subscription businesses. Monitor this rate closely for unusual changes that could indicate a problem in your subscriber lifecycle. ## 3.60% Overall churn rate Across all industries [...] The Recurly network shows a median annual ",
+            "score": 0.1665398,
+            "published": null
+          },
+          {
+            "idx": 2,
+            "title": "ramp-20230331",
+            "url": "https://www.sec.gov/Archives/edgar/data/733269/000073326923000024/ramp-20230331.htm",
+            "domain": "sec.gov",
+            "snippet": "The decline of SNR in fiscal year 2023 was primarily attributable to downsell and churn activity offsetting customer upsell revenue, as well as lower contribution from variable usage. The increase in downsell and churn activity was driven in part by budget and economic pressures on our customers. Annualized Recurring Revenue [...] Subscription Net Retention Subscription net retention (“SNR”) is defined as the current quarter subscription revenue (net) from customers who have been on our platform for one year or more, divided by the prior year quarter subscription revenue (net), inclusive of upsell, churn (lost contract), downsell (contract reduction), and variable revenue changes. SNR excludes revenue from new customers that have not been on our platform for one year or more. We believe our SNR is an important metric that provides insight into the long-term value of our subscription agre",
+            "score": 0.16277891,
+            "published": null
+          },
+          {
+            "idx": 3,
+            "title": "How to Calculate Churn Rate: Formulas and Benchmarks",
+            "url": "https://pipeline.zoominfo.com/sales/how-to-calculate-churn-rate",
+            "domain": "pipeline.zoominfo.com",
+            "snippet": "Acquisition becomes a treadmill: You keep adding customers but lose so many that net growth stalls Spend scales inefficiently: More budget goes to replacing churned revenue instead of growing Value erosion goes unnoticed: Customer count looks stable while high-value accounts walk out ## How to calculate customer churn rate Customer churn rate measures the percentage of customers who terminated their contract or failed to renew in a given period. The focus is purely on account count, regardless of how much revenue each account represented. ### Customer churn rate formula Customer Churn Rate (%) = Customers Lost ÷ Customers at Start of Period × 100 In plain terms: divide the number of customers you lost by the number you started with, then multiply by 100. Example calculation: [...] Example calculation: Customers at month start: 500 Customers lost: 25 Calculation: 25 ÷ 500 × 100 = 5% month",
+            "score": 0.14535783,
+            "published": null
+          },
+          {
+            "idx": 4,
+            "title": "30 Statistics About Customer Churn - Qualtrics",
+            "url": "https://www.qualtrics.com/articles/customer/30-statistics-about-customer-churn",
+            "domain": "qualtrics.com",
+            "snippet": "# 30 Statistics About Customer Churn Jan 13, 2026 facebook x linkedin Copied To Clipboard! copy;) Add Qualtrics as a preferred source on Google Infographic presenting 30 statistics about customer churn rates and costs for businesses in 2025 [...] Infographic displaying 30 customer churn statistics across multiple industries for 2025 ## What is customer churn? [...] Customer churn is the percentage of customers who stop doing business with a company over a given period. Organizations often track their own churn rate to gauge how well they retain customers. This churn rate is usually calculated by dividing the number of customers lost over a period of time (weekly, monthly, yearly, etc.) by the total number of customers at the start of that same period. The resulting number reflects the percentage of customers who didn’t return and is a valuable metric for",
+            "score": 0.12808825,
+            "published": null
+          },
+          {
+            "idx": 5,
+            "title": "Average Churn Rate by Industry [2025 B2B Benchmarks]",
+            "url": "https://customergauge.com/blog/average-churn-rate-by-industry",
+            "domain": "customergauge.com",
+            "snippet": "Retail churn can range from 20% to 37% annually, depending on brand loyalty, price sensitivity, and customer experience. According to CustomerGauge's B2B benchmarks, manufacturing companies see an average churn rate of 35% annually, higher than often cited, reflecting the complexity of B2B account relationships in this sector. General consumer-facing estimates may be lower. IT service providers usually see annual churn between 10% and 15%, though it varies based on whether services are project-based or recurring. A healthy churn rate for subscriptions is under 5% monthly; below 3% is ideal for scaling businesses. Compare your churn against industry averages and company maturity. Startups may tolerate 5–10% monthly, while mature companies aim for under 2%. [...] Note: The churn rates in the FAQ section below reflect general industry averages from multiple sources. The proprietary B2B benc",
+            "score": 0.12700155,
+            "published": null
+          },
+          {
+            "idx": 6,
+            "title": "Acme Industries",
+            "url": "https://tavily.com/knowledge/company/Vj0vBt2aQihn",
+            "domain": "tavily.com",
+            "snippet": "# Acme Industries ID: Vj0vBt2aQihn Website: www.acmeind.com Headquarters: Elk Grove Village, IL, United States LinkedIn: www.linkedin.com/company/acme-industries · 1,991 followers Industry: Machinery Manufacturing Industry codes: SIC 35, 359, NAICS 33, 332 Company type: Privately Held Founded: 1948 Business model: B2B SaaS: no Social profiles: www.facebook.com/acmeindustriesinc, www.crunchbase.com/organization/acme-industries, www.youtube.com/@acmeindus, www.youtube.com/user/acmeindus Email: info@acmeind.com Phone: 847.296.3346, 224.612.8007 Description: ACME is a company that provides creative OEM solutions for aerospace, mining, energy, and transport industries. [...] ## Financials - Annual revenue: 68.30M USD ## Funding - Rounds: 1 - Investors: Owner Resources Group - Last round: Private Equity Round 2025-11-01 - Private Equity Round 2025-11-01 ## M&A - Bley LLC (2014-06-12) ## Techno",
+            "score": 0.10894504,
+            "published": null
+          },
+          {
+            "idx": 7,
+            "title": "Acme Industries Company Overview, Contact Details & Competitors | LeadIQ",
+            "url": "https://leadiq.com/c/acme-industries/5a1d842324000024005e9f05",
+            "domain": "leadiq.com",
+            "snippet": "Minus sign iconPlus sign icon As of October 2026, Acme Industries's annual revenue is estimated to be $50M - $100M. ### What is Acme Industries's SIC code and NAICS code? Minus sign iconPlus sign iconAcme Industries's SIC code is 3599 - Industrial and Commercial Machinery and Equipment, Not Elsewhere Classified and NAICS code is 333 - Machinery Manufacturing. ### How many employees does Acme Industries have currently? [...] Minus sign iconPlus sign iconAs of October 2026, Acme Industries has approximately 218 employees across 5 continents, including North America, Asia and Europe. Key team members include Ceo: J. D., Chief Operating Officer: H. R. and President: A. M. Explore Acme Industries's employee directory with LeadIQ. ### What industry does Acme Industries belong to? Minus sign iconPlus sign iconAcme Industries operates in the Machinery Manufacturing industry. [...] Acme Industrie",
+            "score": 0.09268778,
+            "published": null
+          },
+          {
+            "idx": 8,
+            "title": "Customer service: churn rate by industry U.S. | Statista",
+            "url": "https://www.statista.com/statistics/816735/customer-churn-rate-by-industry-us",
+            "domain": "statista.com",
+            "snippet": "Statista Data Insights by industry Popular statistics Popular topics Popular reports Consumer Insights products Market Insights API & MCP AI assistants Services & solutions By function By use case By industry Statista+ services Get started & learn Plans & access Language & Database Customer churn rate by industry U.S. 2020 Last update: Sep 1, 2020 Region: United States of America Survey time period: August 2020 [...] Feel free to contact us anytime. We will respond to your inquiry as quickly as possible.",
+            "score": 0.07613248,
+            "published": null
+          }
+        ],
+        "strength": {
+          "score": 0,
+          "label": "None",
+          "factors": {
+            "source_count": 0.0,
+            "source_quality": 0.0,
+            "relevance": 0.0,
+            "grounding": 0.0,
+            "consistency": 0.0
+          },
+          "maximums": {
+            "source_count": 35.0,
+            "source_quality": 25.0,
+            "relevance": 20.0,
+            "grounding": 10.0,
+            "consistency": 10.0
+          }
+        },
+        "model_confidence": "high",
+        "contradictory": false,
+        "outdated": false,
+        "error": null,
+        "error_kind": null
+      }
+    ],
+    "warnings": [],
+    "duration_s": 183.4,
+    "app_version": "1.1.0",
+    "metrics": {
+      "model": "openai/gpt-oss-120b",
+      "workers": 3,
+      "claims": 13,
+      "claims_failed": 0,
+      "auto_retry": {
+        "attempted": 0,
+        "recovered": 0
+      },
+      "pdf_extract_s": 0.033,
+      "claim_extraction_s": 2.85,
+      "verification_wall_s": 180.49,
+      "total_s": 183.37,
+      "groq_extraction_calls": {
+        "calls": 1,
+        "failures": 0,
+        "cumulative_s": 2.75,
+        "avg_s": 2.75,
+        "max_s": 2.75
+      },
+      "groq_verification_calls": {
+        "calls": 13,
+        "failures": 0,
+        "cumulative_s": 469.23,
+        "avg_s": 36.09,
+        "max_s": 150.39
+      },
+      "tavily_calls": {
+        "calls": 26,
+        "failures": 0,
+        "cumulative_s": 35.73,
+        "avg_s": 1.37,
+        "max_s": 6.42
+      },
+      "groq_client": {
+        "http_calls": 42,
+        "retries": 28,
+        "rate_limit_hits": 28,
+        "backoff_wait_s": 434.04,
+        "prompt_tokens": 30283,
+        "completion_tokens": 3565
+      },
+      "tavily_client": {
+        "http_calls": 26,
+        "cache_hits": 0,
+        "retries": 0,
+        "backoff_wait_s": 0.0
+      },
+      "db_save_s": 0.0973
+    }
+  },
+  "notes": "evidence_strength is computed from cited-source signals (count, authority tier, retrieval relevance, quote grounding, consistency); it is not the probability that a verdict is correct. model_confidence is the model's own statement and is reported separately."
+}
